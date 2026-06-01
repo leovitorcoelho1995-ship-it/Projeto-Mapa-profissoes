@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa das Profissões do Futuro | Portfólio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #0e1117; color: #fafafa; }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        .back { color: #4a9eff; text-decoration: none; }
+        h1 { font-size: 2.2em; margin: 20px 0 10px; }
+        .subtitle { color: #888; margin-bottom: 30px; font-size: 1.1em; }
+        .card { background: #1a1c23; border-radius: 12px; padding: 25px; margin: 20px 0; border: 1px solid #2a2d35; }
+        .card h3 { margin-bottom: 12px; color: #4a9eff; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin: 25px 0; }
+        .kpi { background: #1a1c23; border-radius: 10px; padding: 20px; text-align: center; border: 1px solid #2a2d35; }
+        .kpi .number { font-size: 1.8em; font-weight: bold; color: #4a9eff; }
+        .kpi .label { color: #888; font-size: 0.85em; margin-top: 5px; }
+        .insight { background: #1a1c23; border-left: 4px solid #4a9eff; padding: 12px 18px; margin: 10px 0; border-radius: 0 8px 8px 0; }
+        .btn { display: inline-block; background: #4a9eff; color: #fff; padding: 14px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.05em; margin: 20px 0; transition: 0.3s; }
+        .btn:hover { background: #3a7eef; }
+        .tech-tag { display: inline-block; background: #2a2d35; padding: 5px 12px; border-radius: 15px; margin: 4px; font-size: 0.85em; }
+        @media (max-width: 600px) { .kpi-grid { grid-template-columns: repeat(2, 1fr); } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back">← Voltar ao portfólio</a>
+        <h1>🧭 Mapa das Profissões do Futuro</h1>
+        <p class="subtitle">Análise do mercado de TI brasileiro com dados reais de vagas e tendências de busca</p>
+
+        <div class="kpi-grid">
+            <div class="kpi"><div class="number">912</div><div class="label">Vagas analisadas</div></div>
+            <div class="kpi"><div class="number">66</div><div class="label">Skills detectadas</div></div>
+            <div class="kpi"><div class="number">14</div><div class="label">Profissões mapeadas</div></div>
+            <div class="kpi"><div class="number">R$8.962</div><div class="label">Salário médio</div></div>
+        </div>
+
+        <a href="https://seu-app.streamlit.app" class="btn" target="_blank">🔗 Acessar Dashboard Interativo</a>
+
+        <div class="card">
+            <h3>📋 Sobre o projeto</h3>
+            <p>Dashboard que cruza dados de <strong>vagas reais</strong> (Adzuna API) com <strong>tendências de busca de 5 anos</strong> (Google Trends) para identificar as skills e profissões mais promissoras do mercado de tecnologia no Brasil.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔧 Tecnologias utilizadas</h3>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Adzuna API</span>
+            <span class="tech-tag">Google Trends</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">Streamlit</span>
+            <span class="tech-tag">Plotly</span>
+            <span class="tech-tag">NLP</span>
+        </div>
+
+        <div class="card">
+            <h3>💡 Principais descobertas</h3>
+            <div class="insight">IA cresceu +2075% em buscas nos últimos 5 anos</div>
+            <div class="insight">Python é a skill mais demandada (93 vagas)</div>
+            <div class="insight">DevOps tem o melhor equilíbrio demanda/salário</div>
+            <div class="insight">83% das vagas não especificam modalidade de trabalho</div>
+        </div>
+
+        <div class="card">
+            <h3>📂 Repositório</h3>
+            <p>Código completo, dados e documentação disponíveis no GitHub:</p>
+            <a href="https://github.com/seu-usuario/mapa-profissoes" class="btn" target="_blank" style="background:#2a2d35;">Ver no GitHub</a>
+        </div>
+    </div>
+</body>
+</html>

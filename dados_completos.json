@@ -1,0 +1,614 @@
+{
+  "metadata": {
+    "data_coleta": "2026-06-01",
+    "data_complemento": "2026-06-01",
+    "fontes": [
+      "Adzuna API (vagas 30 dias)",
+      "Google Trends (5 anos)",
+      "Tabela de referência salarial BR"
+    ],
+    "total_vagas_coletadas": 912
+  },
+  "kpis": {
+    "total_vagas": 912,
+    "skills_unicas": 66,
+    "profissoes_unicas": 14,
+    "salario_medio_estimado": 8962
+  },
+  "top_skills": [
+    {
+      "skill": "Python",
+      "vagas": 93,
+      "interesse_atual": 45,
+      "crescimento_5anos": 37.8,
+      "tendencia": "📈 Alta"
+    },
+    {
+      "skill": "Machine Learning",
+      "vagas": 91,
+      "interesse_atual": 4,
+      "crescimento_5anos": 100.0,
+      "tendencia": "📈 Alta"
+    },
+    {
+      "skill": "SQL",
+      "vagas": 86,
+      "interesse_atual": 11,
+      "crescimento_5anos": -46.6,
+      "tendencia": "📉 Queda"
+    },
+    {
+      "skill": "AWS",
+      "vagas": 85,
+      "interesse_atual": 12,
+      "crescimento_5anos": 34.6,
+      "tendencia": "📈 Alta"
+    },
+    {
+      "skill": "JavaScript",
+      "vagas": 82,
+      "interesse_atual": 6,
+      "crescimento_5anos": -67.1,
+      "tendencia": "📉 Queda"
+    },
+    {
+      "skill": "Inteligência Artificial",
+      "vagas": 62,
+      "interesse_atual": 5,
+      "crescimento_5anos": 400.0,
+      "tendencia": "📈 Alta"
+    },
+    {
+      "skill": "GCP",
+      "vagas": 58,
+      "interesse_atual": 0,
+      "crescimento_5anos": 0,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "Azure",
+      "vagas": 55,
+      "interesse_atual": 2,
+      "crescimento_5anos": 4.3,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "REST",
+      "vagas": 55,
+      "interesse_atual": 2,
+      "crescimento_5anos": 84.6,
+      "tendencia": "📈 Alta"
+    },
+    {
+      "skill": "Java",
+      "vagas": 50,
+      "interesse_atual": 11,
+      "crescimento_5anos": 36.1,
+      "tendencia": "📈 Alta"
+    },
+    {
+      "skill": "R",
+      "vagas": 49,
+      "interesse_atual": 29,
+      "crescimento_5anos": 8.1,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "IA",
+      "vagas": 43,
+      "interesse_atual": 87,
+      "crescimento_5anos": 2075.0,
+      "tendencia": "📈 Alta"
+    },
+    {
+      "skill": "TypeScript",
+      "vagas": 40,
+      "interesse_atual": 0,
+      "crescimento_5anos": 0,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "React",
+      "vagas": 39,
+      "interesse_atual": 2,
+      "crescimento_5anos": -33.3,
+      "tendencia": "📉 Queda"
+    },
+    {
+      "skill": "Node",
+      "vagas": 34,
+      "interesse_atual": 1,
+      "crescimento_5anos": 0.0,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "CSS",
+      "vagas": 32,
+      "interesse_atual": 21,
+      "crescimento_5anos": -33.3,
+      "tendencia": "📉 Queda"
+    },
+    {
+      "skill": "GraphQL",
+      "vagas": 30,
+      "interesse_atual": 1,
+      "crescimento_5anos": 0.0,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "HTML",
+      "vagas": 30,
+      "interesse_atual": 37,
+      "crescimento_5anos": -20.6,
+      "tendencia": "📉 Queda"
+    },
+    {
+      "skill": "Next.js",
+      "vagas": 20,
+      "interesse_atual": 2,
+      "crescimento_5anos": 0,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "Spring",
+      "vagas": 20,
+      "interesse_atual": 31,
+      "crescimento_5anos": 5.4,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "Agile",
+      "vagas": 14,
+      "interesse_atual": 0,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "ETL",
+      "vagas": 13,
+      "interesse_atual": 0,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "CI/CD",
+      "vagas": 12,
+      "interesse_atual": 0,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "Power BI",
+      "vagas": 11,
+      "interesse_atual": 0,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "Databricks",
+      "vagas": 11,
+      "interesse_atual": 0,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "Microsserviços",
+      "vagas": 10,
+      "interesse_atual": 0,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "Angular",
+      "vagas": 10,
+      "interesse_atual": 0,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "iOS",
+      "vagas": 9,
+      "interesse_atual": 0,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "Android",
+      "vagas": 9,
+      "interesse_atual": 0,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "Go",
+      "vagas": 8,
+      "interesse_atual": 0,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    }
+  ],
+  "top_profissoes": [
+    {
+      "profissao": "Desenvolvedor JavaScript",
+      "vagas": 184,
+      "salario_medio_estimado": 7500,
+      "faixa": {
+        "junior": 4000,
+        "pleno": 7500,
+        "senior": 12000
+      }
+    },
+    {
+      "profissao": "DevOps",
+      "vagas": 150,
+      "salario_medio_estimado": 10000,
+      "faixa": {
+        "junior": 5500,
+        "pleno": 10000,
+        "senior": 16000
+      }
+    },
+    {
+      "profissao": "Cientista de Dados",
+      "vagas": 121,
+      "salario_medio_estimado": 11000,
+      "faixa": {
+        "junior": 6500,
+        "pleno": 11000,
+        "senior": 18000
+      }
+    },
+    {
+      "profissao": "Outros",
+      "vagas": 81,
+      "salario_medio_estimado": 6000,
+      "faixa": {
+        "junior": 3500,
+        "pleno": 6000,
+        "senior": 10000
+      }
+    },
+    {
+      "profissao": "Engenheiro de Machine Learning",
+      "vagas": 72,
+      "salario_medio_estimado": 13000,
+      "faixa": {
+        "junior": 7500,
+        "pleno": 13000,
+        "senior": 20000
+      }
+    },
+    {
+      "profissao": "Analista de Dados",
+      "vagas": 56,
+      "salario_medio_estimado": 6000,
+      "faixa": {
+        "junior": 3500,
+        "pleno": 6000,
+        "senior": 9500
+      }
+    },
+    {
+      "profissao": "BI Analyst",
+      "vagas": 53,
+      "salario_medio_estimado": 7000,
+      "faixa": {
+        "junior": 4000,
+        "pleno": 7000,
+        "senior": 11000
+      }
+    },
+    {
+      "profissao": "Engenheiro de Dados",
+      "vagas": 46,
+      "salario_medio_estimado": 12000,
+      "faixa": {
+        "junior": 7000,
+        "pleno": 12000,
+        "senior": 19000
+      }
+    },
+    {
+      "profissao": "Desenvolvedor Python",
+      "vagas": 45,
+      "salario_medio_estimado": 8500,
+      "faixa": {
+        "junior": 4500,
+        "pleno": 8500,
+        "senior": 14000
+      }
+    },
+    {
+      "profissao": "Desenvolvedor Java",
+      "vagas": 41,
+      "salario_medio_estimado": 8500,
+      "faixa": {
+        "junior": 4500,
+        "pleno": 8500,
+        "senior": 13500
+      }
+    },
+    {
+      "profissao": "Desenvolvedor Mobile",
+      "vagas": 40,
+      "salario_medio_estimado": 8000,
+      "faixa": {
+        "junior": 4500,
+        "pleno": 8000,
+        "senior": 13000
+      }
+    },
+    {
+      "profissao": "DBA",
+      "vagas": 10,
+      "salario_medio_estimado": 8000,
+      "faixa": {
+        "junior": 4500,
+        "pleno": 8000,
+        "senior": 12000
+      }
+    },
+    {
+      "profissao": "Arquiteto de Software",
+      "vagas": 8,
+      "salario_medio_estimado": 15000,
+      "faixa": {
+        "junior": 9000,
+        "pleno": 15000,
+        "senior": 22000
+      }
+    },
+    {
+      "profissao": "UX/UI Designer",
+      "vagas": 5,
+      "salario_medio_estimado": 6000,
+      "faixa": {
+        "junior": 3500,
+        "pleno": 6000,
+        "senior": 10000
+      }
+    }
+  ],
+  "opportunity_scores": [
+    {
+      "skill": "IA",
+      "score": 71.2,
+      "vagas": 43,
+      "crescimento_5anos": 2075.0,
+      "tendencia": "📈 Alta"
+    },
+    {
+      "skill": "Python",
+      "score": 57.4,
+      "vagas": 93,
+      "crescimento_5anos": 37.8,
+      "tendencia": "📈 Alta"
+    },
+    {
+      "skill": "Machine Learning",
+      "score": 51.2,
+      "vagas": 91,
+      "crescimento_5anos": 100.0,
+      "tendencia": "📈 Alta"
+    },
+    {
+      "skill": "AWS",
+      "score": 48.1,
+      "vagas": 85,
+      "crescimento_5anos": 34.6,
+      "tendencia": "📈 Alta"
+    },
+    {
+      "skill": "SQL",
+      "score": 47.1,
+      "vagas": 86,
+      "crescimento_5anos": -46.6,
+      "tendencia": "📉 Queda"
+    },
+    {
+      "skill": "JavaScript",
+      "score": 43.9,
+      "vagas": 82,
+      "crescimento_5anos": -67.1,
+      "tendencia": "📉 Queda"
+    },
+    {
+      "skill": "Inteligência Artificial",
+      "score": 40.8,
+      "vagas": 62,
+      "crescimento_5anos": 400.0,
+      "tendencia": "📈 Alta"
+    },
+    {
+      "skill": "REST",
+      "score": 31.3,
+      "vagas": 55,
+      "crescimento_5anos": 84.6,
+      "tendencia": "📈 Alta"
+    },
+    {
+      "skill": "GCP",
+      "score": 31.2,
+      "vagas": 58,
+      "crescimento_5anos": 0,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "R",
+      "score": 30.8,
+      "vagas": 49,
+      "crescimento_5anos": 8.1,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "Azure",
+      "score": 29.9,
+      "vagas": 55,
+      "crescimento_5anos": 4.3,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "Java",
+      "score": 29.1,
+      "vagas": 50,
+      "crescimento_5anos": 36.1,
+      "tendencia": "📈 Alta"
+    },
+    {
+      "skill": "TypeScript",
+      "score": 21.5,
+      "vagas": 40,
+      "crescimento_5anos": 0,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "HTML",
+      "score": 21.3,
+      "vagas": 30,
+      "crescimento_5anos": -20.6,
+      "tendencia": "📉 Queda"
+    },
+    {
+      "skill": "React",
+      "score": 20.7,
+      "vagas": 39,
+      "crescimento_5anos": -33.3,
+      "tendencia": "📉 Queda"
+    },
+    {
+      "skill": "CSS",
+      "score": 19.8,
+      "vagas": 32,
+      "crescimento_5anos": -33.3,
+      "tendencia": "📉 Queda"
+    },
+    {
+      "skill": "Node",
+      "score": 18.4,
+      "vagas": 34,
+      "crescimento_5anos": 0.0,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "GraphQL",
+      "score": 16.3,
+      "vagas": 30,
+      "crescimento_5anos": 0.0,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "Spring",
+      "score": 15.5,
+      "vagas": 20,
+      "crescimento_5anos": 5.4,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "Next.js",
+      "score": 11.1,
+      "vagas": 20,
+      "crescimento_5anos": 0,
+      "tendencia": "➡️ Estável"
+    },
+    {
+      "skill": "Agile",
+      "score": 7.5,
+      "vagas": 14,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "ETL",
+      "score": 7.0,
+      "vagas": 13,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "CI/CD",
+      "score": 6.5,
+      "vagas": 12,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "Power BI",
+      "score": 5.9,
+      "vagas": 11,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "Databricks",
+      "score": 5.9,
+      "vagas": 11,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "Microsserviços",
+      "score": 5.4,
+      "vagas": 10,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "Angular",
+      "score": 5.4,
+      "vagas": 10,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "iOS",
+      "score": 4.8,
+      "vagas": 9,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "Android",
+      "score": 4.8,
+      "vagas": 9,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    },
+    {
+      "skill": "Go",
+      "score": 4.3,
+      "vagas": 8,
+      "crescimento_5anos": 0,
+      "tendencia": "estável"
+    }
+  ],
+  "modalidade_trabalho": {
+    "Remoto": {
+      "vagas": 83,
+      "percentual": 9.1
+    },
+    "Presencial": {
+      "vagas": 20,
+      "percentual": 2.2
+    },
+    "Híbrido": {
+      "vagas": 56,
+      "percentual": 6.1
+    },
+    "Não especificado": {
+      "vagas": 753,
+      "percentual": 82.6
+    }
+  },
+  "insights": [
+    "• Python é a skill mais requisitada, presente em 93 vagas",
+    "• Machine Learning e SQL completam o top 3 de skills mais pedidas",
+    "• Desenvolvedor JavaScript lidera em volume de vagas abertas (184 vagas)",
+    "• Foram identificadas 66 skills técnicas diferentes nas descrições das vagas",
+    "• Apenas 2 vagas informaram salário — a maioria das empresas não divulga valores",
+    "• Profissões em destaque: Desenvolvedor JavaScript, DevOps e Cientista de Dados",
+    "• 9.1% das vagas mencionam trabalho remoto",
+    "• IA é a skill com maior crescimento em 5 anos (+2075.0%)",
+    "• IA lidera o Opportunity Score combinando demanda atual + tendência de longo prazo",
+    "• Salário médio estimado do mercado: R$8,962 (baseado em faixas de referência)"
+  ]
+}
