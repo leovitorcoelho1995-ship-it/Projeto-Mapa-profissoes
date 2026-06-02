@@ -404,9 +404,10 @@ with col1:
         text=df_skills["vagas"],
         textposition="outside",
         textfont=TICK_FONT,
+        cliponaxis=False,
     ))
     fig.update_layout(
-        **LAYOUT_BASE, height=360,
+        **{**LAYOUT_BASE, "margin": dict(l=118, r=52, t=20, b=0)}, height=360,
         xaxis_title="Vagas",
         xaxis=dict(tickfont=TICK_FONT, gridcolor="#d9d4cc"),
         yaxis=dict(autorange="reversed", tickfont=dict(family="DM Mono, monospace", size=13, color=COR_INK), automargin=True),
@@ -430,13 +431,13 @@ with col2:
         text="vagas",
         labels={"salario_medio_estimado": "Salário (R$)", "vagas": "Vagas", "profissao": ""},
     )
-    fig.update_traces(textposition="outside", textfont=TICK_FONT)
+    fig.update_traces(textposition="outside", textfont=TICK_FONT, cliponaxis=False)
     fig.update_coloraxes(colorbar=dict(
         tickfont=TICK_FONT,
         title=dict(font=LABEL_FONT),
     ))
     fig.update_layout(
-        **LAYOUT_BASE, height=360,
+        **{**LAYOUT_BASE, "margin": dict(l=148, r=84, t=20, b=0)}, height=360,
         xaxis_title="Vagas",
         xaxis=dict(tickfont=TICK_FONT, gridcolor="#d9d4cc"),
         yaxis=dict(autorange="reversed", tickfont=dict(family="DM Mono, monospace", size=13, color=COR_INK), automargin=True),
