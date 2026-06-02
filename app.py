@@ -52,6 +52,8 @@ html, body, [class*="css"] { font-family: 'Syne', system-ui, sans-serif !importa
 .footer-bar { border-top: 1px solid #d9d4cc; padding-top: 1.5rem; margin-top: 3rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .5rem; }
 .footer-name { font-family: 'DM Mono', monospace; font-size: 13px; color: #7a7570; }
 .footer-tag { font-family: 'DM Mono', monospace; font-size: 12px; color: #0d7a5f; background: rgba(13,122,95,.1); border: 1px solid rgba(13,122,95,.2); padding: 3px 9px; border-radius: 3px; }
+.stDataFrame [role="gridcell"], .stDataFrame [role="columnheader"] { font-size: 15px !important; font-weight: 600 !important; }
+.stDataFrame [role="columnheader"] { color: #5f5a55 !important; }
 #MainMenu {visibility: hidden;} footer {visibility: hidden;} header {visibility: hidden;}
 </style>
 """, unsafe_allow_html=True)
@@ -73,8 +75,8 @@ LAYOUT_BASE = dict(
     margin=dict(l=0, r=20, t=20, b=0),
 )
 
-TICK_FONT  = dict(family="DM Mono, monospace", size=13, color=COR_MUTED)
-LABEL_FONT = dict(family="DM Mono, monospace", size=14, color=COR_MUTED)
+TICK_FONT  = dict(family="DM Mono, monospace", size=15, color=COR_MUTED)
+LABEL_FONT = dict(family="DM Mono, monospace", size=16, color=COR_MUTED)
 
 def marca_chatgpt(fig):
     """Adiciona linha vertical e anotação do ChatGPT sem usar add_vline (incompatível com Python 3.14)."""
@@ -211,14 +213,14 @@ if tem_ia:
                 zeroline=True, zerolinecolor="#d9d4cc",
             ),
             yaxis2=dict(
-                title=dict(text="Interesse relativo (Google Trends)", font=dict(family="DM Mono, monospace", size=11, color=COR_SECUNDARIA)),
-                tickfont=dict(family="DM Mono, monospace", size=10, color=COR_SECUNDARIA),
+                title=dict(text="Interesse relativo (Google Trends)", font=dict(family="DM Mono, monospace", size=13, color=COR_SECUNDARIA)),
+                tickfont=dict(family="DM Mono, monospace", size=12, color=COR_SECUNDARIA),
                 overlaying="y", side="right",
                 showgrid=False, range=[0, 120],
             ),
             xaxis=dict(gridcolor="#d9d4cc", tickfont=TICK_FONT),
             legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0,
-                        font=dict(family="DM Mono, monospace", size=11)),
+                        font=dict(family="DM Mono, monospace", size=13, color=COR_INK)),
             hovermode="x unified",
         )
         st.plotly_chart(fig, use_container_width=True)
@@ -270,7 +272,7 @@ if tem_ia:
           <span class="section-num">01.3</span>
           <span class="section-title">{cfg['titulo']}</span>
         </div>
-        <div style="font-family:'DM Mono',monospace;font-size:12px;color:#7a7570;margin:-1rem 0 1rem 0;">
+        <div style="font-family:'DM Mono',monospace;font-size:14px;font-weight:500;color:#5f5a55;margin:-1rem 0 1rem 0;line-height:1.7;">
           {cfg['subtitulo']}
         </div>
         """, unsafe_allow_html=True)
@@ -298,7 +300,7 @@ if tem_ia:
                 tickfont=TICK_FONT, gridcolor="#d9d4cc",
             ),
             legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0,
-                        font=dict(family="DM Mono, monospace", size=11)),
+                        font=dict(family="DM Mono, monospace", size=13, color=COR_INK)),
             hovermode="x unified",
         )
         st.plotly_chart(fig_lote, use_container_width=True)
