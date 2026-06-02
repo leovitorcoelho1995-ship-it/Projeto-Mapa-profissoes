@@ -394,17 +394,20 @@ with col1:
     """, unsafe_allow_html=True)
 
     df_skills = pd.DataFrame(dados["top_skills"][:10])
+    df_skills["skill_plot"] = df_skills["skill"].replace({"Inteligência Artificial": "IA"})
     n_sk = len(df_skills)
     cores_skills = [f"rgba(13,122,95,{1.0 - i*(0.75/n_sk):.2f})" for i in range(n_sk)]
 
     fig = go.Figure(go.Bar(
-        x=df_skills["vagas"], y=df_skills["skill"],
+        x=df_skills["vagas"], y=df_skills["skill_plot"],
         orientation="h",
         marker_color=cores_skills,
         text=df_skills["vagas"],
         textposition="outside",
         textfont=TICK_FONT,
         cliponaxis=False,
+        customdata=df_skills["skill"],
+        hovertemplate="<b>%{customdata}</b><br>%{x} vagas<extra></extra>",
     ))
     fig.update_layout(
         **{**LAYOUT_BASE, "margin": dict(l=118, r=52, t=20, b=0)}, height=360,
