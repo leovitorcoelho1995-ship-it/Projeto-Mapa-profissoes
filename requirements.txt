@@ -1,0 +1,6 @@
+streamlit
+pandas
+plotly
+requests
+python-dotenv
+pytrends==4.9.2

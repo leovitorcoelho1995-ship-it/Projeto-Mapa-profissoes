@@ -18,22 +18,22 @@ st.set_page_config(
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&display=swap');
-html, body, [class*="css"] { font-family: 'Syne', system-ui, sans-serif !important; background-color: #f5f2ed !important; color: #0c0c0d !important; font-size: 1.05rem; }
-.block-container { padding-top: 2rem !important; padding-bottom: 4rem !important; max-width: 95% !important; }
+html, body, [class*="css"] { font-family: 'Syne', system-ui, sans-serif !important; background-color: #f5f2ed !important; color: #0c0c0d !important; }
+.block-container { padding-top: 2rem !important; padding-bottom: 4rem !important; max-width: 1200px !important; }
 .hero-block { padding: 3rem 0 2rem 0; border-bottom: 1px solid #d9d4cc; margin-bottom: 2.5rem; }
-.hero-eyebrow { font-family: 'DM Mono', monospace; font-size: 13px; color: #7a7570; letter-spacing: .1em; text-transform: uppercase; display: flex; align-items: center; gap: .6rem; margin-bottom: 1rem; }
+.hero-eyebrow { font-family: 'DM Mono', monospace; font-size: 12px; color: #7a7570; letter-spacing: .1em; text-transform: uppercase; display: flex; align-items: center; gap: .6rem; margin-bottom: 1rem; }
 .hero-eyebrow::before { content: ''; display: inline-block; width: 24px; height: 1px; background: #0d7a5f; }
 .hero-title { font-family: 'DM Serif Display', Georgia, serif; font-size: clamp(2.4rem, 5vw, 3.8rem); line-height: 1.08; letter-spacing: -.01em; color: #0c0c0d; margin-bottom: .75rem; }
 .hero-title em { font-style: italic; color: #0d7a5f; }
-.hero-lead { font-size: 1.15rem; color: #7a7570; line-height: 1.8; max-width: 560px; }
+.hero-lead { font-size: 1.05rem; color: #7a7570; line-height: 1.8; max-width: 560px; }
 .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .75rem; margin-bottom: 2.5rem; }
 .kpi-card { background: #ede9e2; border: 1px solid #d9d4cc; border-radius: 8px; padding: 1.1rem 1.25rem; }
-.kpi-val { font-family: 'DM Serif Display', serif; font-size: 2.3rem; line-height: 1; color: #0c0c0d; }
+.kpi-val { font-family: 'DM Serif Display', serif; font-size: 2rem; line-height: 1; color: #0c0c0d; }
 .kpi-val span { font-family: 'Syne', sans-serif; font-size: .85rem; font-weight: 700; color: #0d7a5f; }
-.kpi-label { font-family: 'DM Mono', monospace; font-size: 12px; color: #7a7570; text-transform: uppercase; letter-spacing: .07em; margin-top: .3rem; }
+.kpi-label { font-family: 'DM Mono', monospace; font-size: 11px; color: #7a7570; text-transform: uppercase; letter-spacing: .07em; margin-top: .3rem; }
 .section-header { display: flex; align-items: baseline; gap: .75rem; margin-bottom: 1.5rem; margin-top: 2.5rem; padding-bottom: .75rem; border-bottom: 1px solid #d9d4cc; }
-.section-num { font-family: 'DM Mono', monospace; font-size: 13px; color: #7a7570; letter-spacing: .08em; }
-.section-title { font-family: 'DM Serif Display', serif; font-size: 1.8rem; color: #0c0c0d; }
+.section-num { font-family: 'DM Mono', monospace; font-size: 12px; color: #7a7570; letter-spacing: .08em; }
+.section-title { font-family: 'DM Serif Display', serif; font-size: 1.6rem; color: #0c0c0d; }
 .section-title em { font-style: italic; color: #0d7a5f; }
 .ia-hero { background: #0c0c0d; border-radius: 12px; padding: 2.5rem; margin: 2rem 0; position: relative; overflow: hidden; }
 .ia-hero::before { content: ''; position: absolute; top: -60px; right: -60px; width: 260px; height: 260px; border-radius: 50%; background: radial-gradient(circle, rgba(13,122,95,.35) 0%, transparent 70%); }
@@ -45,13 +45,13 @@ html, body, [class*="css"] { font-family: 'Syne', system-ui, sans-serif !importa
 .ia-stat { background: rgba(245,242,237,.07); border: 1px solid rgba(245,242,237,.12); border-radius: 8px; padding: .9rem 1.25rem; min-width: 140px; }
 .ia-stat-val { font-family: 'DM Serif Display', serif; font-size: 1.8rem; color: #4ade80; line-height: 1; }
 .ia-stat-label { font-family: 'DM Mono', monospace; font-size: 10px; color: #7a7570; text-transform: uppercase; letter-spacing: .07em; margin-top: .25rem; }
-.annotation { background: #ede9e2; border-left: 3px solid #0d7a5f; border-radius: 0 6px 6px 0; padding: 1rem 1.25rem; margin: 1.5rem 0; font-size: 1rem; color: #3a3835; line-height: 1.7; }
+.annotation { background: #ede9e2; border-left: 3px solid #0d7a5f; border-radius: 0 6px 6px 0; padding: 1rem 1.25rem; margin: 1.5rem 0; font-size: .92rem; color: #3a3835; line-height: 1.7; }
 .insight-list { display: flex; flex-direction: column; gap: .5rem; }
-.insight-item { background: #ede9e2; border: 1px solid #d9d4cc; border-radius: 6px; padding: .85rem 1.1rem; font-size: 1rem; color: #0c0c0d; line-height: 1.55; }
+.insight-item { background: #ede9e2; border: 1px solid #d9d4cc; border-radius: 6px; padding: .75rem 1rem; font-size: .9rem; color: #0c0c0d; line-height: 1.55; }
 .divider { height: 1px; background: #d9d4cc; margin: 2.5rem 0; }
 .footer-bar { border-top: 1px solid #d9d4cc; padding-top: 1.5rem; margin-top: 3rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .5rem; }
-.footer-name { font-family: 'DM Mono', monospace; font-size: 13px; color: #7a7570; }
-.footer-tag { font-family: 'DM Mono', monospace; font-size: 12px; color: #0d7a5f; background: rgba(13,122,95,.1); border: 1px solid rgba(13,122,95,.2); padding: 3px 9px; border-radius: 3px; }
+.footer-name { font-family: 'DM Mono', monospace; font-size: 12px; color: #7a7570; }
+.footer-tag { font-family: 'DM Mono', monospace; font-size: 11px; color: #0d7a5f; background: rgba(13,122,95,.1); border: 1px solid rgba(13,122,95,.2); padding: 3px 9px; border-radius: 3px; }
 #MainMenu {visibility: hidden;} footer {visibility: hidden;} header {visibility: hidden;}
 </style>
 """, unsafe_allow_html=True)
@@ -73,8 +73,8 @@ LAYOUT_BASE = dict(
     margin=dict(l=0, r=20, t=20, b=0),
 )
 
-TICK_FONT  = dict(family="DM Mono, monospace", size=13, color=COR_MUTED)
-LABEL_FONT = dict(family="DM Mono, monospace", size=14, color=COR_MUTED)
+TICK_FONT  = dict(family="DM Mono, monospace", size=10, color=COR_MUTED)
+LABEL_FONT = dict(family="DM Mono, monospace", size=11, color=COR_MUTED)
 
 def marca_chatgpt(fig):
     """Adiciona linha vertical e anotação do ChatGPT sem usar add_vline (incompatível com Python 3.14)."""
@@ -236,72 +236,42 @@ if tem_ia:
         )
         st.markdown(f'<div class="insight-list">{html_ins}</div>', unsafe_allow_html=True)
 
-    # --- 01.3 Trends por lote ---
-    trends_lotes = ia.get("trends_lotes", {})
+    # --- 01.3 Trends múltiplos termos ---
+    st.markdown("""
+    <div class="section-header">
+      <span class="section-num">01.3</span>
+      <span class="section-title">Interesse por <em>termo</em> (5 anos)</span>
+    </div>
+    """, unsafe_allow_html=True)
 
-    CONFIGS_LOTES = [
-        {
-            "chave": "skills_trabalho",
-            "titulo": "Skills de IA no <em>mercado de trabalho</em>",
-            "subtitulo": "Demanda por perfis técnicos de IA — proxy de interesse profissional, não curiosidade geral",
-            "cores": ["#064e3b", "#10b981", "#6ee7b7"],
-        },
-        {
-            "chave": "ferramentas_ia",
-            "titulo": "Ferramentas de IA no <em>ambiente corporativo</em>",
-            "subtitulo": "Adoção real de ferramentas nas empresas — ChatGPT no trabalho, Copilot, Gemini, Claude",
-            "cores": ["#fcd34d", "#f59e0b", "#b45309", "#78350f"],
-        },
-        {
-            "chave": "demanda_vagas",
-            "titulo": "Busca por <em>vagas de TI</em> (Google Trends)",
-            "subtitulo": "Interesse em encontrar emprego em TI — reflete aquecimento/esfriamento do mercado",
-            "cores": ["#4c1d95", "#7c3aed", "#c4b5fd"],
-        },
-    ]
-
-    for cfg in CONFIGS_LOTES:
-        lote_dados = trends_lotes.get(cfg["chave"], {})
-        if not any(lote_dados.values()):
+    fig2 = go.Figure()
+    cores_tr = [COR_PRINCIPAL, COR_SECUNDARIA, "#f59e0b"]
+    for idx, (termo, pontos) in enumerate(trends.items()):
+        if not pontos:
             continue
+        df_t = pd.DataFrame(pontos)
+        df_t["mes_dt"] = pd.to_datetime(df_t["mes"])
+        fig2.add_trace(go.Scatter(
+            x=df_t["mes_dt"], y=df_t["valor"],
+            name=termo,
+            line=dict(color=cores_tr[idx % len(cores_tr)], width=2),
+            hovertemplate=f"<b>{termo}</b><br>%{{x|%b/%Y}}: %{{y}}<extra></extra>",
+        ))
 
-        st.markdown(f"""
-        <div class="section-header">
-          <span class="section-num">01.3</span>
-          <span class="section-title">{cfg['titulo']}</span>
-        </div>
-        <div style="font-family:'DM Mono',monospace;font-size:12px;color:#7a7570;margin:-1rem 0 1rem 0;">
-          {cfg['subtitulo']}
-        </div>
-        """, unsafe_allow_html=True)
+    marca_chatgpt(fig2)
 
-        fig_lote = go.Figure()
-        for i, (termo, pontos) in enumerate(lote_dados.items()):
-            if not pontos:
-                continue
-            df_t = pd.DataFrame(pontos)
-            df_t["mes_dt"] = pd.to_datetime(df_t["mes"])
-            df_t = df_t[df_t["mes_dt"] >= "2022-07-01"]
-            fig_lote.add_trace(go.Scatter(
-                x=df_t["mes_dt"], y=df_t["valor"],
-                name=termo,
-                line=dict(color=cfg["cores"][i % len(cfg["cores"])], width=3.5),
-                hovertemplate=f"<b>{termo}</b><br>%{{x|%b/%Y}}: %{{y}}<extra></extra>",
-            ))
-
-        marca_chatgpt(fig_lote)
-        fig_lote.update_layout(
-            **LAYOUT_BASE, height=420,
-            xaxis=dict(gridcolor="#d9d4cc", tickfont=TICK_FONT),
-            yaxis=dict(
-                title=dict(text="Interesse relativo (0–100)", font=LABEL_FONT),
-                tickfont=TICK_FONT, gridcolor="#d9d4cc",
-            ),
-            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0,
-                        font=dict(family="DM Mono, monospace", size=11)),
-            hovermode="x unified",
-        )
-        st.plotly_chart(fig_lote, use_container_width=True)
+    fig2.update_layout(
+        **LAYOUT_BASE, height=300,
+        xaxis=dict(gridcolor="#d9d4cc", tickfont=TICK_FONT),
+        yaxis=dict(
+            title=dict(text="Interesse relativo (0–100)", font=LABEL_FONT),
+            tickfont=TICK_FONT, gridcolor="#d9d4cc",
+        ),
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0,
+                    font=dict(family="DM Mono, monospace", size=11)),
+        hovermode="x unified",
+    )
+    st.plotly_chart(fig2, use_container_width=True)
     st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 
 else:
@@ -327,9 +297,8 @@ with col1:
     </div>
     """, unsafe_allow_html=True)
 
-    SKILLS_EXCLUIR = {"IA", "R"}
-    top_cresc = sorted(dados["top_skills"], key=lambda x: x["crescimento_5anos"], reverse=True)
-    top_cresc = [s for s in top_cresc if s["skill"] not in SKILLS_EXCLUIR][:8]
+    top_cresc = sorted(dados["top_skills"], key=lambda x: x["crescimento_5anos"], reverse=True)[:8]
+    top_cresc = [s for s in top_cresc if s["skill"] != "IA"]
     df_cresc = pd.DataFrame(top_cresc)
 
     fig = px.bar(
@@ -358,7 +327,7 @@ with col2:
 
     df_score = pd.DataFrame(dados["opportunity_scores"][:8])
     n_s = len(df_score)
-    cores_score = [COR_PRINCIPAL if i == 0 else f"rgba(13,122,95,{0.9 - i*0.12:.2f})" for i in range(n_s)]
+    cores_score = [COR_PRINCIPAL if i == 0 else f"rgba(13,122,95,{0.9 - i*0.08:.2f})" for i in range(n_s)]
 
     fig = go.Figure(go.Bar(
         y=df_score["skill"][::-1],
@@ -373,7 +342,7 @@ with col2:
         **LAYOUT_BASE, height=340,
         xaxis_title="Score (0–100)",
         xaxis=dict(tickfont=TICK_FONT, gridcolor="#d9d4cc"),
-        yaxis=dict(tickfont=dict(family="DM Mono, monospace", size=13, color=COR_INK), automargin=True),
+        yaxis=dict(tickfont=dict(family="DM Mono, monospace", size=11, color=COR_INK)),
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -396,7 +365,7 @@ with col1:
 
     df_skills = pd.DataFrame(dados["top_skills"][:10])
     n_sk = len(df_skills)
-    cores_skills = [f"rgba(13,122,95,{1.0 - i*(0.75/n_sk):.2f})" for i in range(n_sk)]
+    cores_skills = [f"rgba(13,122,95,{1.0 - i*(0.5/n_sk):.2f})" for i in range(n_sk)]
 
     fig = go.Figure(go.Bar(
         x=df_skills["vagas"], y=df_skills["skill"],
@@ -410,7 +379,7 @@ with col1:
         **LAYOUT_BASE, height=360,
         xaxis_title="Vagas",
         xaxis=dict(tickfont=TICK_FONT, gridcolor="#d9d4cc"),
-        yaxis=dict(autorange="reversed", tickfont=dict(family="DM Mono, monospace", size=13, color=COR_INK), automargin=True),
+        yaxis=dict(autorange="reversed", tickfont=dict(family="DM Mono, monospace", size=11, color=COR_INK)),
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -440,7 +409,7 @@ with col2:
         **LAYOUT_BASE, height=360,
         xaxis_title="Vagas",
         xaxis=dict(tickfont=TICK_FONT, gridcolor="#d9d4cc"),
-        yaxis=dict(autorange="reversed", tickfont=dict(family="DM Mono, monospace", size=13, color=COR_INK), automargin=True),
+        yaxis=dict(autorange="reversed", tickfont=dict(family="DM Mono, monospace", size=11, color=COR_INK)),
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -467,7 +436,7 @@ with col1:
         axis=1
     )
     sal_vals = df_sal["salario_medio_estimado"][::-1]
-    cores_sal = [COR_PRINCIPAL if v == sal_vals.max() else f"rgba(13,122,95,{0.35 + v/sal_vals.max()*0.65:.2f})" for v in sal_vals]
+    cores_sal = [COR_PRINCIPAL if v == sal_vals.max() else f"rgba(13,122,95,{0.55 + v/sal_vals.max()*0.45:.2f})" for v in sal_vals]
 
     fig = go.Figure(go.Bar(
         y=df_sal["profissao"][::-1], x=sal_vals,
@@ -482,7 +451,7 @@ with col1:
         **LAYOUT_BASE, height=360,
         xaxis_title="Salário Médio Pleno",
         xaxis=dict(tickfont=TICK_FONT, gridcolor="#d9d4cc", tickprefix="R$"),
-        yaxis=dict(tickfont=dict(family="DM Mono, monospace", size=13, color=COR_INK), automargin=True),
+        yaxis=dict(tickfont=dict(family="DM Mono, monospace", size=11, color=COR_INK)),
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -526,7 +495,8 @@ with col2:
 
     st.markdown("""
     <div class="annotation">
-      83% das vagas não especificam modalidade. No entanto, vagas vinculadas a uma cidade específica sem menção de teletrabalho costumam ser, na prática, presenciais (assumindo a contratação local como padrão).
+      83% das vagas não especificam modalidade — dado típico do mercado brasileiro,
+      onde a informação costuma aparecer só na entrevista.
     </div>
     """, unsafe_allow_html=True)
 
