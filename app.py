@@ -52,8 +52,17 @@ html, body, [class*="css"] { font-family: 'Syne', system-ui, sans-serif !importa
 .footer-bar { border-top: 1px solid #d9d4cc; padding-top: 1.5rem; margin-top: 3rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .5rem; }
 .footer-name { font-family: 'DM Mono', monospace; font-size: 13px; color: #7a7570; }
 .footer-tag { font-family: 'DM Mono', monospace; font-size: 12px; color: #0d7a5f; background: rgba(13,122,95,.1); border: 1px solid rgba(13,122,95,.2); padding: 3px 9px; border-radius: 3px; }
-.stDataFrame [role="gridcell"], .stDataFrame [role="columnheader"] { font-size: 15px !important; font-weight: 600 !important; }
-.stDataFrame [role="columnheader"] { color: #5f5a55 !important; }
+.stDataFrame [role="gridcell"], .stDataFrame [role="columnheader"],
+.stDataFrame [role="gridcell"] div, .stDataFrame [role="columnheader"] div,
+.stDataFrame .gdg-cell, .stDataFrame .gdg-cell span {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  line-height: 1.55 !important;
+}
+.stDataFrame [role="columnheader"], .stDataFrame [role="columnheader"] div {
+  color: #5f5a55 !important;
+  font-weight: 700 !important;
+}
 #MainMenu {visibility: hidden;} footer {visibility: hidden;} header {visibility: hidden;}
 </style>
 """, unsafe_allow_html=True)
