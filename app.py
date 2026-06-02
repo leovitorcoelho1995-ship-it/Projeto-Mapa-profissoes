@@ -18,14 +18,14 @@ st.set_page_config(
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&display=swap');
-html, body, [class*="css"] { font-family: 'Syne', system-ui, sans-serif !important; background-color: #f5f2ed !important; color: #0c0c0d !important; font-size: 1.05rem; }
+html, body, [class*="css"] { font-family: 'Syne', system-ui, sans-serif !important; background-color: #f5f2ed !important; color: #0c0c0d !important; font-size: 1.1rem; font-weight: 500; }
 .block-container { padding-top: 2rem !important; padding-bottom: 4rem !important; max-width: 95% !important; }
 .hero-block { padding: 3rem 0 2rem 0; border-bottom: 1px solid #d9d4cc; margin-bottom: 2.5rem; }
 .hero-eyebrow { font-family: 'DM Mono', monospace; font-size: 13px; color: #7a7570; letter-spacing: .1em; text-transform: uppercase; display: flex; align-items: center; gap: .6rem; margin-bottom: 1rem; }
 .hero-eyebrow::before { content: ''; display: inline-block; width: 24px; height: 1px; background: #0d7a5f; }
 .hero-title { font-family: 'DM Serif Display', Georgia, serif; font-size: clamp(2.4rem, 5vw, 3.8rem); line-height: 1.08; letter-spacing: -.01em; color: #0c0c0d; margin-bottom: .75rem; }
 .hero-title em { font-style: italic; color: #0d7a5f; }
-.hero-lead { font-size: 1.15rem; color: #7a7570; line-height: 1.8; max-width: 560px; }
+.hero-lead { font-size: 1.22rem; font-weight: 500; color: #5f5a55; line-height: 1.85; max-width: 680px; }
 .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .75rem; margin-bottom: 2.5rem; }
 .kpi-card { background: #ede9e2; border: 1px solid #d9d4cc; border-radius: 8px; padding: 1.1rem 1.25rem; }
 .kpi-val { font-family: 'DM Serif Display', serif; font-size: 2.3rem; line-height: 1; color: #0c0c0d; }
@@ -45,9 +45,9 @@ html, body, [class*="css"] { font-family: 'Syne', system-ui, sans-serif !importa
 .ia-stat { background: rgba(245,242,237,.07); border: 1px solid rgba(245,242,237,.12); border-radius: 8px; padding: .9rem 1.25rem; min-width: 140px; }
 .ia-stat-val { font-family: 'DM Serif Display', serif; font-size: 1.8rem; color: #4ade80; line-height: 1; }
 .ia-stat-label { font-family: 'DM Mono', monospace; font-size: 10px; color: #7a7570; text-transform: uppercase; letter-spacing: .07em; margin-top: .25rem; }
-.annotation { background: #ede9e2; border-left: 3px solid #0d7a5f; border-radius: 0 6px 6px 0; padding: 1rem 1.25rem; margin: 1.5rem 0; font-size: 1rem; color: #3a3835; line-height: 1.7; }
+.annotation { background: #ede9e2; border-left: 3px solid #0d7a5f; border-radius: 0 6px 6px 0; padding: 1.1rem 1.35rem; margin: 1.5rem 0; font-size: 1.08rem; font-weight: 500; color: #2f2d2a; line-height: 1.8; }
 .insight-list { display: flex; flex-direction: column; gap: .5rem; }
-.insight-item { background: #ede9e2; border: 1px solid #d9d4cc; border-radius: 6px; padding: .85rem 1.1rem; font-size: 1rem; color: #0c0c0d; line-height: 1.55; }
+.insight-item { background: #ede9e2; border: 1px solid #d9d4cc; border-radius: 6px; padding: .95rem 1.15rem; font-size: 1.04rem; font-weight: 500; color: #0c0c0d; line-height: 1.65; }
 .divider { height: 1px; background: #d9d4cc; margin: 2.5rem 0; }
 .footer-bar { border-top: 1px solid #d9d4cc; padding-top: 1.5rem; margin-top: 3rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .5rem; }
 .footer-name { font-family: 'DM Mono', monospace; font-size: 13px; color: #7a7570; }
@@ -115,8 +115,8 @@ st.markdown("""
 <div class="hero-block">
   <div class="hero-eyebrow">Análise de Mercado · Brasil · 2026</div>
   <div class="hero-title">Mapa das <em>Profissões</em><br>do Futuro</div>
-  <div class="hero-lead">912 vagas reais analisadas. Google Trends de 5 anos. CAGED/MTE 2022–2025.<br>
-  O que o mercado de TI brasileiro está pedindo — e para onde está indo.</div>
+  <div class="hero-lead">912 vagas reais analisadas. Google Trends de 5 anos. CAGED/MTE 2022-2025.<br>
+  O que o mercado de TI brasileiro está pedindo - e para onde está indo.</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -135,7 +135,7 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # ============================================================
-# SEÇÃO 1 — IMPACTO DA IA
+# SECAO 1 - IMPACTO DA IA
 # ============================================================
 
 if tem_ia:
@@ -146,11 +146,11 @@ if tem_ia:
 
     st.markdown(f"""
     <div class="ia-hero">
-      <div class="ia-hero-eyebrow">01 — Impacto da IA no Mercado de TI</div>
+      <div class="ia-hero-eyebrow">01 - Impacto da IA no Mercado de TI</div>
       <div class="ia-hero-title">O mercado esfriou.<br>O interesse em <em>IA explodiu</em>.</div>
       <div class="ia-hero-sub">
         Desde o lançamento do ChatGPT em novembro de 2022, o número de vagas formais em TI
-        entrou em contração — enquanto a demanda por skills de IA não para de crescer.
+        entrou em contração - enquanto a demanda por skills de IA não para de crescer.
       </div>
       <div class="ia-stats-row">
         <div class="ia-stat"><div class="ia-stat-val">+2075%</div><div class="ia-stat-label">Interesse em IA (5 anos)</div></div>
@@ -168,7 +168,7 @@ if tem_ia:
         st.markdown("""
         <div class="section-header">
           <span class="section-num">01.1</span>
-          <span class="section-title">Vagas de TI × Interesse em <em>IA</em></span>
+          <span class="section-title">Vagas de TI x Interesse em <em>IA</em></span>
         </div>
         """, unsafe_allow_html=True)
 
@@ -243,19 +243,19 @@ if tem_ia:
         {
             "chave": "skills_trabalho",
             "titulo": "Skills de IA no <em>mercado de trabalho</em>",
-            "subtitulo": "Demanda por perfis técnicos de IA — proxy de interesse profissional, não curiosidade geral",
+            "subtitulo": "Demanda por perfis técnicos de IA - proxy de interesse profissional, não curiosidade geral",
             "cores": ["#064e3b", "#10b981", "#6ee7b7"],
         },
         {
             "chave": "ferramentas_ia",
             "titulo": "Ferramentas de IA no <em>ambiente corporativo</em>",
-            "subtitulo": "Adoção real de ferramentas nas empresas — ChatGPT no trabalho, Copilot, Gemini, Claude",
+            "subtitulo": "Adoção real de ferramentas nas empresas - ChatGPT no trabalho, Copilot, Gemini, Claude",
             "cores": ["#fcd34d", "#f59e0b", "#b45309", "#78350f"],
         },
         {
             "chave": "demanda_vagas",
             "titulo": "Busca por <em>vagas de TI</em> (Google Trends)",
-            "subtitulo": "Interesse em encontrar emprego em TI — reflete aquecimento/esfriamento do mercado",
+            "subtitulo": "Interesse em encontrar emprego em TI - reflete aquecimento/esfriamento do mercado",
             "cores": ["#4c1d95", "#7c3aed", "#c4b5fd"],
         },
     ]
@@ -294,7 +294,7 @@ if tem_ia:
             **LAYOUT_BASE, height=420,
             xaxis=dict(gridcolor="#d9d4cc", tickfont=TICK_FONT),
             yaxis=dict(
-                title=dict(text="Interesse relativo (0–100)", font=LABEL_FONT),
+                title=dict(text="Interesse relativo (0-100)", font=LABEL_FONT),
                 tickfont=TICK_FONT, gridcolor="#d9d4cc",
             ),
             legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0,
@@ -311,9 +311,8 @@ else:
       Execute <code>python enriquece_ia.py</code> para adicionar a análise de impacto da IA.
     </div>
     """, unsafe_allow_html=True)
-
 # ============================================================
-# SEÇÃO 2 — CRESCIMENTO + OPPORTUNITY SCORE
+# SECAO 2 - CRESCIMENTO + OPPORTUNITY SCORE
 # ============================================================
 
 secnum = "02" if tem_ia else "01"
@@ -371,7 +370,7 @@ with col2:
     ))
     fig.update_layout(
         **LAYOUT_BASE, height=340,
-        xaxis_title="Score (0–100)",
+        xaxis_title="Score (0-100)",
         xaxis=dict(tickfont=TICK_FONT, gridcolor="#d9d4cc"),
         yaxis=dict(tickfont=dict(family="DM Mono, monospace", size=13, color=COR_INK), automargin=True),
     )
@@ -380,7 +379,7 @@ with col2:
 st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 
 # ============================================================
-# SEÇÃO 3 — SKILLS + PROFISSÕES
+# SECAO 3 - SKILLS + PROFISSOES
 # ============================================================
 
 secnum2 = "03" if tem_ia else "02"
@@ -447,7 +446,7 @@ with col2:
 st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 
 # ============================================================
-# SEÇÃO 4 — SALÁRIOS + MODALIDADE
+# SECAO 4 - SALÁRIOS + MODALIDADE
 # ============================================================
 
 secnum3 = "04" if tem_ia else "03"
@@ -476,12 +475,14 @@ with col1:
         text=sal_vals.apply(lambda x: f"R${x:,.0f}"),
         textposition="outside",
         textfont=TICK_FONT,
+        cliponaxis=False,
         hovertemplate=df_sal["faixa_hover"][::-1].values,
     ))
     fig.update_layout(
-        **LAYOUT_BASE, height=360,
+        **{**LAYOUT_BASE, "margin": dict(l=0, r=96, t=20, b=0)},
+        height=360,
         xaxis_title="Salário Médio Pleno",
-        xaxis=dict(tickfont=TICK_FONT, gridcolor="#d9d4cc", tickprefix="R$"),
+        xaxis=dict(tickfont=TICK_FONT, gridcolor="#d9d4cc", tickprefix="R$", range=[0, sal_vals.max() * 1.16]),
         yaxis=dict(tickfont=dict(family="DM Mono, monospace", size=13, color=COR_INK), automargin=True),
     )
     st.plotly_chart(fig, use_container_width=True)
@@ -489,51 +490,65 @@ with col1:
     st.markdown("""
     <div class="annotation">
       <strong>Nota metodológica:</strong> Salários estimados a partir de tabelas de referência
-      (Glassdoor/Catho) para o nível pleno — apenas 2 vagas da coleta informaram salário diretamente.
+      (Glassdoor/Catho) para o nível pleno - apenas 2 vagas da coleta informaram salário diretamente.
       A maioria das empresas brasileiras não divulga remuneração nas vagas publicadas.
     </div>
     """, unsafe_allow_html=True)
-
 with col2:
     st.markdown(f"""
     <div class="section-header">
       <span class="section-num">{secnum3}.2</span>
-      <span class="section-title"><em>Modalidade</em></span>
+      <span class="section-title">Transparência sobre <em>modalidade</em></span>
     </div>
     """, unsafe_allow_html=True)
-
-    mod_data = dados["modalidade_trabalho"]
-    df_mod = pd.DataFrame([
-        {"Modalidade": k, "Vagas": v["vagas"]}
-        for k, v in mod_data.items() if v["vagas"] > 0
-    ])
-    fig = px.pie(
-        df_mod, names="Modalidade", values="Vagas",
-        color="Modalidade",
-        color_discrete_map={
-            "Remoto": COR_PRINCIPAL, "Presencial": COR_ACCENT,
-            "Híbrido": "#f59e0b", "Não especificado": "#d9d4cc",
-        },
-        hole=0.55,
-    )
-    fig.update_traces(
-        textinfo="percent+label",
-        textfont=dict(family="DM Mono, monospace", size=11),
-        hovertemplate="<b>%{label}</b><br>%{value} vagas (%{percent})<extra></extra>",
-    )
-    fig.update_layout(**LAYOUT_BASE, height=320, showlegend=False)
-    st.plotly_chart(fig, use_container_width=True)
 
     st.markdown("""
     <div class="annotation">
-      83% das vagas não especificam modalidade. No entanto, vagas vinculadas a uma cidade específica sem menção de teletrabalho costumam ser, na prática, presenciais (assumindo a contratação local como padrão).
+      <strong>Leitura metodológica:</strong> modalidade não é um dado confiável nesta coleta.
+      Das 912 vagas analisadas, 753 não declaram se são remotas, híbridas ou presenciais.
+      Por isso, os 20 anúncios explicitamente presenciais não representam o tamanho real do
+      presencial no mercado. Na prática, muitas vagas associadas a uma cidade e sem menção
+      a remoto provavelmente são vagas locais, mas essa inferência não deve virar KPI.
+      O dado mais importante aqui é a baixa transparência das publicações.
     </div>
     """, unsafe_allow_html=True)
+    mod_data = dados["modalidade_trabalho"]
+    vagas_sem_modalidade = next(
+        (v["vagas"] for k, v in mod_data.items() if "especificado" in k.lower()),
+        0,
+    )
+    total_modalidade = sum(v["vagas"] for v in mod_data.values())
+    vagas_com_modalidade = total_modalidade - vagas_sem_modalidade
+    df_transp = pd.DataFrame([
+        {"Status": "Declara modalidade", "Vagas": vagas_com_modalidade},
+        {"Status": "Não declara", "Vagas": vagas_sem_modalidade},
+    ])
+    df_transp["Percentual"] = df_transp["Vagas"] / total_modalidade * 100
+
+    fig = go.Figure(go.Bar(
+        y=df_transp["Status"][::-1],
+        x=df_transp["Vagas"][::-1],
+        orientation="h",
+        marker_color=["#c8c1b7", COR_PRINCIPAL],
+        text=df_transp.apply(lambda r: f"{r['Vagas']} ({r['Percentual']:.1f}%)", axis=1)[::-1],
+        textposition="outside",
+        textfont=TICK_FONT,
+        cliponaxis=False,
+        hovertemplate="<b>%{y}</b><br>%{x} vagas<extra></extra>",
+    ))
+    fig.update_layout(
+        **{**LAYOUT_BASE, "margin": dict(l=0, r=88, t=8, b=0)},
+        height=220,
+        xaxis=dict(tickfont=TICK_FONT, gridcolor="#d9d4cc", range=[0, total_modalidade * 1.15]),
+        yaxis=dict(tickfont=dict(family="DM Mono, monospace", size=12, color=COR_INK), automargin=True),
+        showlegend=False,
+    )
+    st.plotly_chart(fig, use_container_width=True)
 
 st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 
 # ============================================================
-# SEÇÃO 5 — TABELA + INSIGHTS
+# SECAO 5 - TABELA + INSIGHTS
 # ============================================================
 
 secnum4 = "05" if tem_ia else "04"
@@ -553,7 +568,7 @@ with col1:
     df_tab["Cresc. 5a"] = df_tab["Cresc. 5a"].apply(lambda x: f"{x:+.1f}%")
 
     st.dataframe(
-        df_tab, use_container_width=True, hide_index=True, height=620,
+        df_tab, use_container_width=True, hide_index=True, height=760,
         column_config={
             "Skill": st.column_config.TextColumn("Skill", width="medium"),
             "Vagas": st.column_config.NumberColumn("Vagas", width="small"),
@@ -606,3 +621,4 @@ st.markdown("""
   </div>
 </div>
 """, unsafe_allow_html=True)
+
