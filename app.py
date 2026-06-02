@@ -115,7 +115,7 @@ st.markdown("""
 <div class="hero-block">
   <div class="hero-eyebrow">Análise de Mercado · Brasil · 2026</div>
   <div class="hero-title">Mapa das <em>Profissões</em><br>do Futuro</div>
-  <div class="hero-lead">912 vagas reais analisadas. Google Trends de 5 anos. CAGED/MTE 2022–2026.<br>
+  <div class="hero-lead">912 vagas reais analisadas. Google Trends de 5 anos. CAGED/MTE 2022–2025.<br>
   O que o mercado de TI brasileiro está pedindo — e para onde está indo.</div>
 </div>
 """, unsafe_allow_html=True)
