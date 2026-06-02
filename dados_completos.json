@@ -3,10 +3,10 @@
     "data_coleta": "2026-06-01",
     "data_complemento": "2026-06-01",
     "fontes": [
-      "Google Trends (5 anos)",
       "Tabela de referência salarial BR",
-      "Adzuna API (vagas 30 dias)",
-      "CAGED/MTE (série 2022-2026)"
+      "CAGED/MTE (série 2022-2026)",
+      "Google Trends (5 anos)",
+      "Adzuna API (vagas 30 dias)"
     ],
     "total_vagas_coletadas": 912
   },
@@ -1850,7 +1850,7 @@
           },
           {
             "mes": "2026-05",
-            "valor": 56
+            "valor": 55
           },
           {
             "mes": "2026-05",
@@ -1858,7 +1858,7 @@
           },
           {
             "mes": "2026-05",
-            "valor": 32
+            "valor": 31
           }
         ],
         "engenheiro de dados": [
@@ -3958,7 +3958,7 @@
           },
           {
             "mes": "2026-05",
-            "valor": 5
+            "valor": 6
           }
         ]
       },
@@ -5006,7 +5006,7 @@
           },
           {
             "mes": "2026-05",
-            "valor": 2
+            "valor": 3
           },
           {
             "mes": "2026-05",
@@ -6060,7 +6060,7 @@
           },
           {
             "mes": "2026-05",
-            "valor": 2
+            "valor": 3
           }
         ],
         "Gemini Google": [
@@ -7102,7 +7102,7 @@
           },
           {
             "mes": "2026-05",
-            "valor": 35
+            "valor": 37
           },
           {
             "mes": "2026-05",
@@ -7110,7 +7110,7 @@
           },
           {
             "mes": "2026-05",
-            "valor": 23
+            "valor": 28
           }
         ],
         "Claude AI": [
@@ -8160,7 +8160,7 @@
           },
           {
             "mes": "2026-05",
-            "valor": 25
+            "valor": 30
           }
         ]
       },
@@ -9212,7 +9212,7 @@
           },
           {
             "mes": "2026-05",
-            "valor": 4
+            "valor": 10
           }
         ],
         "vaga desenvolvedor": [
@@ -10254,7 +10254,7 @@
           },
           {
             "mes": "2026-05",
-            "valor": 14
+            "valor": 13
           },
           {
             "mes": "2026-05",
@@ -10262,7 +10262,7 @@
           },
           {
             "mes": "2026-05",
-            "valor": 13
+            "valor": 22
           }
         ],
         "vaga engenheiro": [
@@ -11304,15 +11304,15 @@
           },
           {
             "mes": "2026-05",
-            "valor": 57
+            "valor": 56
           },
           {
             "mes": "2026-05",
-            "valor": 57
+            "valor": 58
           },
           {
             "mes": "2026-05",
-            "valor": 40
+            "valor": 59
           }
         ]
       },
@@ -12364,7 +12364,7 @@
           },
           {
             "mes": "2026-05",
-            "valor": 25
+            "valor": 24
           }
         ]
       }
@@ -13417,7 +13417,7 @@
         },
         {
           "mes": "2026-05",
-          "valor": 25
+          "valor": 24
         }
       ]
     },

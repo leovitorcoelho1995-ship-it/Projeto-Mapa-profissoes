@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "data_coleta": "2026-06-01",
+    "data_coleta": "2026-06-02",
     "fonte": "Adzuna API",
-    "total_vagas_coletadas": 912,
+    "total_vagas_coletadas": 871,
     "periodo_dias": 30,
     "termos_busca": [
       "python",
@@ -28,72 +28,68 @@
     ]
   },
   "kpis": {
-    "total_vagas": 912,
-    "skills_unicas": 65,
+    "total_vagas": 871,
+    "skills_unicas": 66,
     "profissoes_unicas": 14,
     "salario_medio": 60200.0,
     "vagas_com_salario": 3
   },
   "top_skills": [
     {
-      "skill": "Python",
-      "vagas": 95
-    },
-    {
-      "skill": "Machine Learning",
-      "vagas": 92
-    },
-    {
-      "skill": "SQL",
-      "vagas": 91
+      "skill": "Inteligência Artificial",
+      "vagas": 134
     },
     {
       "skill": "AWS",
+      "vagas": 91
+    },
+    {
+      "skill": "Python",
+      "vagas": 88
+    },
+    {
+      "skill": "SQL",
       "vagas": 85
     },
     {
+      "skill": "Machine Learning",
+      "vagas": 84
+    },
+    {
       "skill": "JavaScript",
-      "vagas": 82
+      "vagas": 81
     },
     {
-      "skill": "Inteligência Artificial",
-      "vagas": 64
-    },
-    {
-      "skill": "GCP",
-      "vagas": 59
+      "skill": "REST",
+      "vagas": 56
     },
     {
       "skill": "Azure",
       "vagas": 55
     },
     {
-      "skill": "REST",
-      "vagas": 55
-    },
-    {
-      "skill": "R",
-      "vagas": 50
-    },
-    {
       "skill": "Java",
-      "vagas": 50
+      "vagas": 52
     },
     {
-      "skill": "IA",
-      "vagas": 44
-    },
-    {
-      "skill": "TypeScript",
-      "vagas": 41
+      "skill": "GCP",
+      "vagas": 47
     },
     {
       "skill": "React",
+      "vagas": 41
+    },
+    {
+      "skill": "R",
+      "vagas": 39
+    },
+    {
+      "skill": "TypeScript",
       "vagas": 39
     },
     {
       "skill": "Node",
-      "vagas": 34
+      "vagas": 33
     },
     {
       "skill": "CSS",
@@ -108,19 +104,23 @@
       "vagas": 30
     },
     {
+      "skill": "Spring",
+      "vagas": 23
+    },
+    {
       "skill": "Next.js",
       "vagas": 20
     },
     {
-      "skill": "Spring",
-      "vagas": 20
+      "skill": "Agile",
+      "vagas": 17
     },
     {
       "skill": "Flutter",
-      "vagas": 19
+      "vagas": 17
     },
     {
-      "skill": "Agile",
+      "skill": "ETL",
       "vagas": 13
     },
     {
@@ -128,19 +128,15 @@
       "vagas": 12
     },
     {
-      "skill": "ETL",
-      "vagas": 12
-    },
-    {
-      "skill": "Databricks",
-      "vagas": 11
-    },
-    {
       "skill": "CI/CD",
       "vagas": 11
     },
     {
       "skill": "Angular",
+      "vagas": 11
+    },
+    {
+      "skill": "Databricks",
       "vagas": 10
     },
     {
@@ -149,7 +145,11 @@
     },
     {
       "skill": "Go",
-      "vagas": 8
+      "vagas": 7
+    },
+    {
+      "skill": "Kafka",
+      "vagas": 7
     },
     {
       "skill": "Kubernetes",
@@ -159,55 +159,55 @@
   "top_profissoes": [
     {
       "profissao": "Desenvolvedor JavaScript",
-      "vagas": 184
+      "vagas": 183
     },
     {
       "profissao": "DevOps",
-      "vagas": 149
+      "vagas": 122
     },
     {
       "profissao": "Cientista de Dados",
-      "vagas": 120
-    },
-    {
-      "profissao": "Outros",
-      "vagas": 80
+      "vagas": 116
     },
     {
       "profissao": "Engenheiro de Machine Learning",
-      "vagas": 74
+      "vagas": 76
+    },
+    {
+      "profissao": "Outros",
+      "vagas": 73
     },
     {
       "profissao": "Analista de Dados",
-      "vagas": 56
+      "vagas": 55
     },
     {
       "profissao": "BI Analyst",
       "vagas": 53
     },
     {
-      "profissao": "Engenheiro de Dados",
-      "vagas": 46
-    },
-    {
       "profissao": "Desenvolvedor Python",
       "vagas": 45
     },
     {
+      "profissao": "Engenheiro de Dados",
+      "vagas": 45
+    },
+    {
       "profissao": "Desenvolvedor Java",
-      "vagas": 41
+      "vagas": 40
     },
     {
       "profissao": "Desenvolvedor Mobile",
-      "vagas": 41
+      "vagas": 40
     },
     {
       "profissao": "DBA",
-      "vagas": 10
+      "vagas": 12
     },
     {
       "profissao": "Arquiteto de Software",
-      "vagas": 8
+      "vagas": 6
     },
     {
       "profissao": "UX/UI Designer",
@@ -216,114 +216,114 @@
   ],
   "opportunity_scores": [
     {
-      "skill": "Python",
+      "skill": "Inteligência Artificial",
       "score": 100.0,
-      "vagas": 95
-    },
-    {
-      "skill": "Machine Learning",
-      "score": 96.8,
-      "vagas": 92
-    },
-    {
-      "skill": "SQL",
-      "score": 95.8,
-      "vagas": 91
+      "vagas": 134
     },
     {
       "skill": "AWS",
-      "score": 89.5,
+      "score": 67.9,
+      "vagas": 91
+    },
+    {
+      "skill": "Python",
+      "score": 65.7,
+      "vagas": 88
+    },
+    {
+      "skill": "SQL",
+      "score": 63.4,
       "vagas": 85
     },
     {
+      "skill": "Machine Learning",
+      "score": 62.7,
+      "vagas": 84
+    },
+    {
       "skill": "JavaScript",
-      "score": 86.3,
-      "vagas": 82
-    },
-    {
-      "skill": "Inteligência Artificial",
-      "score": 67.4,
-      "vagas": 64
-    },
-    {
-      "skill": "GCP",
-      "score": 62.1,
-      "vagas": 59
-    },
-    {
-      "skill": "Azure",
-      "score": 57.9,
-      "vagas": 55
+      "score": 60.4,
+      "vagas": 81
     },
     {
       "skill": "REST",
-      "score": 57.9,
+      "score": 41.8,
+      "vagas": 56
+    },
+    {
+      "skill": "Azure",
+      "score": 41.0,
       "vagas": 55
     },
     {
-      "skill": "R",
-      "score": 52.6,
-      "vagas": 50
-    },
-    {
       "skill": "Java",
-      "score": 52.6,
-      "vagas": 50
+      "score": 38.8,
+      "vagas": 52
     },
     {
-      "skill": "IA",
-      "score": 46.3,
-      "vagas": 44
-    },
-    {
-      "skill": "TypeScript",
-      "score": 43.2,
-      "vagas": 41
+      "skill": "GCP",
+      "score": 35.1,
+      "vagas": 47
     },
     {
       "skill": "React",
-      "score": 41.1,
+      "score": 30.6,
+      "vagas": 41
+    },
+    {
+      "skill": "R",
+      "score": 29.1,
+      "vagas": 39
+    },
+    {
+      "skill": "TypeScript",
+      "score": 29.1,
       "vagas": 39
     },
     {
       "skill": "Node",
-      "score": 35.8,
-      "vagas": 34
+      "score": 24.6,
+      "vagas": 33
+    },
+    {
+      "skill": "CSS",
+      "score": 24.6,
+      "vagas": 33
     }
   ],
   "modalidade_trabalho": {
     "Remoto": {
       "vagas": 81,
-      "percentual": 8.9
+      "percentual": 9.3
     },
     "Presencial": {
-      "vagas": 22,
+      "vagas": 21,
       "percentual": 2.4
     },
     "Híbrido": {
-      "vagas": 57,
-      "percentual": 6.2
+      "vagas": 53,
+      "percentual": 6.1
     },
     "Não especificado": {
-      "vagas": 752,
-      "percentual": 82.5
+      "vagas": 716,
+      "percentual": 82.2
     }
   },
   "insights": [
-    "• Python é a skill mais requisitada, presente em 95 vagas",
-    "• Machine Learning e SQL completam o top 3 de skills mais pedidas",
-    "• Desenvolvedor JavaScript lidera em volume de vagas abertas (184 vagas)",
-    "• Foram identificadas 65 skills técnicas diferentes nas descrições das vagas",
+    "• Inteligência Artificial é a skill mais requisitada, presente em 134 vagas",
+    "• AWS e Python completam o top 3 de skills mais pedidas",
+    "• Desenvolvedor JavaScript lidera em volume de vagas abertas (183 vagas)",
+    "• Foram identificadas 66 skills técnicas diferentes nas descrições das vagas",
     "• Apenas 3 vagas informaram salário — a maioria das empresas não divulga valores",
     "• Profissões em destaque: Desenvolvedor JavaScript, DevOps e Cientista de Dados",
-    "• 8.9% das vagas mencionam trabalho remoto"
+    "• 9.3% das vagas mencionam trabalho remoto"
   ],
   "vagas_por_termo": {
     "python": 50,
     "dados": 50,
     "inteligência artificial": 50,
     "machine learning": 50,
-    "cloud": 50,
+    "cloud": 0,
     "aws": 50,
     "azure": 50,
     "devops": 50,
@@ -482,8 +482,8 @@
       "descricao": "A Propmind é uma startup do ramo locatário que tem como objetivo automatizar os processos de locação por meio de IA. Se você gosta de atuar ponta a ponta no desenvolvimento e quer trabalhar com tecnol"
     },
     {
-      "titulo": "Desenvolvedor(a) Backend Sênior | Python & TypeScript | Qualidade & Arquitetura | Presencial | PJ | Itaim/SP",
-      "descricao": "Desenvolvedor(a) Backend Sênior | Python & TypeScript | Qualidade & Arquitetura | Presencial | PJ | Itaim/SP  Sobre a VONBZ Na VONBZ, somos arquitetos da evolução digital. Não contratamos apenas profi"
+      "titulo": "Desenvolvedor Python",
+      "descricao": "Desenvolvedor Python - O profissional atuará em projetos desafiadores, com foco em construção e evolução de aplicações, processamento de dados e desenvolvimento de APIs e interfaces. Responsabilidades"
     },
     {
       "titulo": "Desenvolvedor Python",
@@ -650,10 +650,6 @@
       "descricao": "Venha para uma das maiores empresas de Serviços IT do mundo Aqui você pode transformar sua carreira! Por que fazer parte da TCS? Aqui na TCS acreditamos que as pessoas fazem a diferença, por isso vive"
     },
     {
-      "titulo": "ESPECIALISTA BI [BANCO DE DADOS E ENGENHARIA DE DADOS]",
-      "descricao": "O Grupo Petrópolis é a única grande empresa do setor cervejeiro com capital 100% nacional. Produz as marcas de cerveja Itaipava, Cabaré, Crystal, Lokal, Black Princess, Petra e Weltenburger, Brassaria"
-    },
-    {
       "titulo": "Arquiteto de Dados (Perfil Hands-On / Especialista de Dados)",
       "descricao": "Buscamos um(a) Arquiteto(a) de Dados com perfil hands-on para atuar na construção e evolução de plataformas modernas de dados. Esse profissional será responsável por desenhar arquiteturas escaláveis, "
     },
@@ -734,12 +730,16 @@
       "descricao": " A Foursys é um time apaixonado por inovação, design e transformação digital. Somos globais, somos GPTW.   ♿️ Na Foursys, celebramos a diversidade e acreditamos que são as diferentes ideias e perspect"
     },
     {
+      "titulo": "Analista de Dados Logísticos",
+      "descricao": "A Química Anastacio é uma das maiores distribuidoras de produtos químicos da América Latina e oferece um amplo portfólio de produtos e ingredientes, além de soluções e serviços inteligentes, auxiliand"
+    },
+    {
       "titulo": "Engenheiro de Dados PL",
       "descricao": "Responsabilidades e atribuições: Construir e manter pipelines de dados escaláveis. Desenvolver processos de ETL/ELT para consumo analítico. Projetar e implementar modelos analíticos e estruturas de da"
     },
     {
-      "titulo": "Analista de Dados Logísticos",
-      "descricao": "A Química Anastacio é uma das maiores distribuidoras de produtos químicos da América Latina e oferece um amplo portfólio de produtos e ingredientes, além de soluções e serviços inteligentes, auxiliand"
+      "titulo": "Analista de dados sênior",
+      "descricao": "Analista em Dados | SQL Avançado | ETL/ELT | Modelagem de Dados Estamos em busca de um profissional apaixonado por dados, com forte domínio técnico em SQL e experiência prática em integração, modelage"
     },
     {
       "titulo": "TI e Inteligência artificial",
@@ -906,10 +906,6 @@
       "descricao": "Description Atuar na área de automação industrial, com foco em inteligência artificial a fim de trazer melhorias área, novos projetos, e otimização de processos. Responsibilities Atuar na análise e de"
     },
     {
-      "titulo": "Analista Inteligência Artificial Pl",
-      "descricao": "Description Vice-Presidência: Pessoas Diretoria: CI Técnicas e Retenção Local de Trabalho: Eco Berrini /SP Estamos em busca de uma pessoa Engenheira de Inteligência Artificial Pleno para atuar em uma "
-    },
-    {
       "titulo": "Analista de Inteligência Artificial Pleno",
       "descricao": "*Contratação CLT; *Presencial; *09h às 18h. Responsabilidades: • Desenvolver e manter APIs RESTful utilizando FastAPI ou Django REST Framework; • Trabalhar com arquiteturas baseadas em microsserviços "
     },
@@ -936,6 +932,10 @@
     {
       "titulo": "Engenheiro de Inteligência Artificial Senior 2026",
       "descricao": "Description  Se você gosta de construir soluções do zero, testar rápido, aprender mais rápido ainda e usar inteligência artificial para resolver problemas reais — essa vaga é pra você. Na Suno, tecnol"
+    },
+    {
+      "titulo": "Desenvolvedor em Inteligencia Artificial (Ia) Avançado",
+      "descricao": "Sobre a Empresa Somos uma empresa inovadora no setor de saúde, com foco em soluções tecnológicas que transformam a experiência do cuidado domiciliar. Buscamos um Programador em Inteligência Artificial"
     },
     {
       "titulo": "Engenheiro de Machine Learning",
@@ -1063,43 +1063,23 @@
     },
     {
       "titulo": "Especialista De Machine Learning I",
-      "descricao": "Especialista De Machine Learning I - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreinament"
+      "descricao": "Especialista De Machine Learning I - - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreiname"
     },
     {
       "titulo": "Especialista De Machine Learning I",
-      "descricao": "Especialista De Machine Learning I - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreinament"
+      "descricao": "Especialista De Machine Learning I - - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreiname"
     },
     {
       "titulo": "Especialista De Machine Learning I",
-      "descricao": "Especialista De Machine Learning I - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreinament"
+      "descricao": "Especialista De Machine Learning I - - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreiname"
     },
     {
       "titulo": "Especialista De Machine Learning I",
-      "descricao": "Especialista De Machine Learning I - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreinament"
+      "descricao": "Especialista De Machine Learning I - - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreiname"
     },
     {
       "titulo": "Especialista De Machine Learning I",
-      "descricao": "Especialista De Machine Learning I - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreinament"
-    },
-    {
-      "titulo": "Especialista De Machine Learning I",
-      "descricao": "Especialista De Machine Learning I - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreinament"
-    },
-    {
-      "titulo": "Especialista De Machine Learning I",
-      "descricao": "Especialista De Machine Learning I - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreinament"
-    },
-    {
-      "titulo": "Especialista De Machine Learning I",
-      "descricao": "Especialista De Machine Learning I - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreinament"
-    },
-    {
-      "titulo": "Especialista De Machine Learning I",
-      "descricao": "Especialista De Machine Learning I - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreinament"
-    },
-    {
-      "titulo": "Especialista De Machine Learning I",
-      "descricao": "Especialista De Machine Learning I - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreinament"
+      "descricao": "Especialista De Machine Learning I - - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreiname"
     },
     {
       "titulo": "Especialista De Machine Learning I",
@@ -1138,68 +1118,28 @@
       "descricao": "Especialista De Machine Learning I - - Construir e manter pipelines de MLOps para automação de etapas como treino, validação, empacotamento, versionamento, deploy, rollback, monitoramento e retreiname"
     },
     {
-      "titulo": "Salesforce Service Cloud  Genesys Cloud",
-      "descricao": "Estamos buscando profissionais com experiência em Salesforce Service Cloud para atuar em projeto corporativo com foco em operação de Contact Center e integração CTI/CX Cloud.  Principais responsabilid"
+      "titulo": "Desenvolvedor Sênior - Machine Learning",
+      "descricao": "Experiência, Habilidades e conhecimentos necessários: Experiência em modelagem e calibração de algoritmos de machine learning não supervisionados, supervisionados, semi-supervisionados e aprendizado p"
     },
     {
-      "titulo": "Cloud Analyst",
-      "descricao": "A Foursys é um time apaixonado por inovação, design e transformação digital. Somos globais, somos GPTW.   ♿️ Na Foursys, celebramos a diversidade e acreditamos que são as diferentes ideias e perspecti"
+      "titulo": "Sr. Machine Learning Engineer",
+      "descricao": "Sr. Machine Learning Engineer - Machine Learning Engineer to lead the development of cutting-edge Generative AI applications and scalable AI platforms. This is a high-impact technical leadership role "
     },
     {
-      "titulo": "Cloud Engineer",
-      "descricao": "A Tata Consultancy Services (TCS) é líder global em serviços de TI, consultoria & soluções de negócios com uma grande rede de centros de inovação & entrega. Fomos reconhecidos como um Global Top Emplo"
+      "titulo": "Sr. Machine Learning Engineer",
+      "descricao": "Sr. Machine Learning Engineer - Machine Learning Engineer to lead the development of cutting-edge Generative AI applications and scalable AI platforms. This is a high-impact technical leadership role "
     },
     {
-      "titulo": "Cloud Engineer",
-      "descricao": "Come to one of the biggest IT Services companies in the world Here you can transform your career! Why to join TCS? Here at TCS we believe that people make the difference, that's why we live a culture "
+      "titulo": "Sr. Machine Learning Engineer",
+      "descricao": "Sr. Machine Learning Engineer - Machine Learning Engineer to lead the development of cutting-edge Generative AI applications and scalable AI platforms. This is a high-impact technical leadership role "
     },
     {
-      "titulo": "Senior Cloud Administrator",
-      "descricao": "As THE leader in transit technology, Clever Devices' vision is to make meaningful contributions to worldwide mobility. Our goal is to be the leading provider of exciting technology that improves the q"
+      "titulo": "Sr. Machine Learning Engineer",
+      "descricao": "Sr. Machine Learning Engineer - Machine Learning Engineer to lead the development of cutting-edge Generative AI applications and scalable AI platforms. This is a high-impact technical leadership role "
     },
     {
-      "titulo": "Cloud Security Architect",
-      "descricao": "Stellantis is one of the global leaders in the development and production of automobiles and light commercial vehicles, as well as in providing mobility solutions. We are one of the world’s leading Mo"
-    },
-    {
-      "titulo": "Arquiteto DevOps / Cloud",
-      "descricao": "Arquiteto DevOps / Cloud A Foursys é uma consultoria global de tecnologia com mais de 25 anos de atuação , especializada em transformação digital, inovação e desenvolvimento de soluções tecnológicas p"
-    },
-    {
-      "titulo": "Desenvolvedor Cloud Sênior",
-      "descricao": " Desenvolvedor(a) Cloud Sênior  Modelo de trabalho: 100% Remoto  Contratação CLT Estamos em busca de um(a) Desenvolvedor(a) Cloud Sênior hands-on, com forte atuação prática em arquitetura moderna, clo"
-    },
-    {
-      "titulo": "Salesforce Marketing Cloud",
-      "descricao": "Foursys é um time apaixonado por inovação, design e transformação digital. Somos globais, somos GPTW.   ♿️ Na Foursys, celebramos a diversidade e acreditamos que são as diferentes ideias e perspectiva"
-    },
-    {
-      "titulo": "Analista de infraestrutura (Cloud)",
-      "descricao": "Descrição da vaga Na Stefanini, acreditamos no poder da colaboração. Co-criamos soluções inovadoras em parceria com nossos clientes, combinando tecnologia de ponta, inteligência artificial e a criativ"
-    },
-    {
-      "titulo": "Cloud Platform Engineer Sr",
-      "descricao": "O Itaú é a marca mais valiosa do Brasil, a melhor empresa para trabalhar segundo o Great Place to Work e o maior banco da América Latina. Nós impactamos diariamente mais de 98 milhões de clientes em 1"
-    },
-    {
-      "titulo": "Cloud Systems Engineer/DevOps",
-      "descricao": "About the Product For more than 30 years, Carnegie has been a leader and innovator in higher education marketing and enrollment strategy, offering groundbreaking services in the areas of Research, Str"
-    },
-    {
-      "titulo": "Especialista Salesforce Data Cloud",
-      "descricao": "Aqui na ília nossas vagas estão sempre abertas para todas as pessoas e não se restringem quanto a gênero, etnia, orientação sexual, fatores sociais, condições físicas ou intelectuais (PCD) etc. Incent"
-    },
-    {
-      "titulo": "Analista Cloud e Infraestrutura Pleno",
-      "descricao": "Qual será o seu papel?  Garantir o atendimento dos chamados e requisições dentro dos SLA’s estabelecidos via JIRA. Atuar na gestão da rotina operacional, distribuição de demandas e acompanhamento das "
-    },
-    {
-      "titulo": "Executivo Comercial - Serviços Cloud",
-      "descricao": "Sobre nós: A UDS é especialista em desenvolver softwares web e aplicativos personalizados com squads ágeis. Atende marcas como Calvin Klein, DHL, C&A, Madero, SKY, Correios, Yamaha e outras. Foi recon"
-    },
-    {
-      "titulo": "\"Cloud DevOps Sênior 1002679\"",
-      "descricao": "Quem Somos A Dexian, lançada em 2023, tem presença global e traz consigo quase 30 anos de experiência através de suas companhias legadas, principalmente da combinação da DISYS e Signature Consultants."
+      "titulo": "Arquiteto(a) de Soluções AWS Sênior",
+      "descricao": "Arquiteto(a) de Soluções AWS Sênior Localidade: São Paulo (SP) Modelo: Híbrido Sobre a Foursys: A Foursys é uma consultoria global de tecnologia com mais de 25 anos de atuação, especializada em transf"
     },
     {
       "titulo": "Senior Cloud Architect (AWS)",
@@ -1208,138 +1148,6 @@
     {
       "titulo": "Specialist Cloud Architect (AWS)",
       "descricao": "Descrição da vaga Buscamos uma pessoa Cloud Architect Especialista para atuar em um time estratégico de alta maturidade técnica, com foco em modernização de aplicações, infraestrutura em nuvem AWS e p"
-    },
-    {
-      "titulo": "Especialista em Cloud e Infraestrutura de Redes",
-      "descricao": "Na Stefanini, acreditamos no poder da colaboração. Co-criamos soluções inovadoras em parceria com nossos clientes, combinando tecnologia de ponta, inteligência artificial e a criatividade humana. Esta"
-    },
-    {
-      "titulo": "Azure Cloud VDI Engineer",
-      "descricao": "• A função exige experiência prática em migração de Azure Virtual Desktop (AVD), e não apenas operações ou suporte de VDI. • Combina migração de desktops e aplicações, troubleshooting avançado de Wind"
-    },
-    {
-      "titulo": "Desenvolvedor(a) Salesforce Commerce Cloud",
-      "descricao": "Somos a Framework! Evoluímos grandes marcas em todo o mundo com transformação digital e crescemos continuamente através de agilidade, design e tecnologia. Fazer parte do nosso time é saber que a sua j"
-    },
-    {
-      "titulo": "GCP Cloud Architect | Specialist (Remote)",
-      "descricao": "Responsabilidades e atribuições Conduzir treinamentos técnicos, workshops e palestras (principalmente em espanhol) sobre GCP; Desenvolver demonstrações práticas (hands-on) e provas de conceito (PoCs);"
-    },
-    {
-      "titulo": "Senior Salesforce Data Cloud Architect",
-      "descricao": "Role: SENIOR DATA CLOUD ARCHITECT Position Type: Full-Time Contract (40hrs/week) Contract Duration: 12 months Work Schedule: 8 hours/day (Mon-Fri) Location: 100% Remote We are seeking a Senior Data Cl"
-    },
-    {
-      "titulo": "Arquitetura de Soluções Cloud Azure - 132725",
-      "descricao": "O que buscamos: Profissional de nível Sênior que atue com Arquitetura de Soluçõs em ambientes Cloud Azure . Contratação CLT Responsabilidades: Será o responsável pelo desenho, definição e evolução da "
-    },
-    {
-      "titulo": "Mid Salesforce Mkt Cloud Developer",
-      "descricao": "Estamos em busca de um Mid Salesforce Marketing Cloud Developer, que irá apoiar na evolução e sustentação de canais digitais com foco em Personalization, automações e integrações com dados. Essa é uma"
-    },
-    {
-      "titulo": "Engenheiro(a) Sênior de Integração | APIs & Cloud",
-      "descricao": "Quem Somos A Dexian, lançada em 2023, tem presença global e traz consigo quase 30 anos de experiência através de suas companhias legadas, principalmente da combinação da DISYS e Signature Consultants."
-    },
-    {
-      "titulo": "API Management Cloud Engineer II",
-      "descricao": "API Management Cloud Engineer III Sao Paulo, Brazil (Hybrid) Long term Contract SUMMARY: The Cloud Engineer (API Management) is responsible for designing, implementing, and maintaining robust API ecos"
-    },
-    {
-      "titulo": "SR. Analista Salesforce Data Cloud",
-      "descricao": "Aqui na ília nossas vagas estão sempre abertas para todas as pessoas e não se restringem quanto a gênero, etnia, orientação sexual, fatores sociais, condições físicas ou intelectuais (PCD) etc. Incent"
-    },
-    {
-      "titulo": "Desenvolvedor Salesforce Marketing Cloud - Sênior",
-      "descricao": "Buscamos profissional com experiência em Salesforce Marketing Cloud para atuar na implementação e evolução de jornadas de comunicação e automação de campanhas. Requisitos: Experiência com Journey Buil"
-    },
-    {
-      "titulo": "Analista Cloud Júnior - DevOps & IA",
-      "descricao": "Na Stefanini, acreditamos no poder da colaboração. Co-criamos soluções inovadoras em parceria com nossos clientes, combinando tecnologia de ponta, inteligência artificial e a criatividade humana. Esta"
-    },
-    {
-      "titulo": "Cloud Platform Engineer (Azure) - Pleno",
-      "descricao": "Olá! Somos a @Runtalent, com DNA inovador, somos consolidados no mercado de tecnologia especializados em soluções de TI há quase duas décadas. Acompanhamos todos os avanços tecnológicos dos últimos an"
-    },
-    {
-      "titulo": "Engenheiro de IA / GenAI SR (Google Cloud)",
-      "descricao": "Estamos em busca de um(a) Engenheiro(a) de IA / GenAI Sênior para atuar na evolução de soluções avançadas de inteligência artificial aplicadas à Central de Atendimento , com foco em automação, intelig"
-    },
-    {
-      "titulo": "Cloud Data Architect / Data Engineer (AWS)",
-      "descricao": "Vaga: Cloud Data Architect / Data Engineer (AWS) Atuação: 100% home office Contratação: PJ Projeto: Prazo indeterminado Buscamos por um(a) Cloud Data Architect / Data Engineer (AWS), para atuar de for"
-    },
-    {
-      "titulo": "Consultor(a) SAP FI Sênior - Public Cloud",
-      "descricao": "Na Inetum , acreditamos que a diversidade é a chave para construir soluções mais criativas e impactantes. Valorizamos cada pessoa pelo que ela é e pelo que pode contribuir, independentemente de raça, "
-    },
-    {
-      "titulo": "Oracle Cloud Technical Consultant (OIC Developer)",
-      "descricao": "Come to one of the biggest IT Services companies in the world Here you can transform your career! Why to join TCS? Here at TCS we believe that people make the difference, that's why we live a culture "
-    },
-    {
-      "titulo": "Salesforce Marketing Cloud Developer (Relocation to Portugal)",
-      "descricao": "Your connection with Aubay starts in the following lines: Aubay Portugal is a French multinational company that has been operating in the country since 2007, with offices in Lisbon and Porto. We are a"
-    },
-    {
-      "titulo": "[Tech] Coordenação de Desenvolvimento de Software (Net | Cloud Native | SaaS)",
-      "descricao": "Deverá atuar como coordenação do time de um serviço de framework utilizado por diversos produtos da TOTVS. O serviço é relacionado a dados, é estratégico para a companhia além de ser Cloud Native e de"
-    },
-    {
-      "titulo": "LIDER TÉCNICO/ ARQUITETO CLOUD (Maranhão ou Porto Alegre) - Hibrida",
-      "descricao": "Nós acreditamos que boas ideias nascem de bons relacionamentos, boas conversas e troca de experiências. Se você, assim como nós, sente vontade de transformar os negócios, a sociedade e o mundo por mei"
-    },
-    {
-      "titulo": "Senior Cloud Sales Executive (BRL30-35K/month PJ  bonus)",
-      "descricao": "Estamos construindo uma nova categoria em eficiência e inteligência para infraestrutura cloud. Procuramos um(a) Account Executive Sênior com perfil altamente consultivo, forte capacidade de execução e"
-    },
-    {
-      "titulo": "Salesforce Service Cloud  Genesys Cloud",
-      "descricao": "Estamos buscando profissionais com experiência em Salesforce Service Cloud para atuar em projeto corporativo com foco em operação de Contact Center e integração CTI/CX Cloud. Principais responsabilida"
-    },
-    {
-      "titulo": "Salesforce Service Cloud  Genesys Cloud",
-      "descricao": "Estamos buscando profissionais com experiência em Salesforce Service Cloud para atuar em projeto corporativo com foco em operação de Contact Center e integração CTI/CX Cloud. Principais responsabilida"
-    },
-    {
-      "titulo": "Salesforce Service Cloud  Genesys Cloud",
-      "descricao": "Estamos buscando profissionais com experiência em Salesforce Service Cloud para atuar em projeto corporativo com foco em operação de Contact Center e integração CTI/CX Cloud. Principais responsabilida"
-    },
-    {
-      "titulo": "Salesforce Service Cloud  Genesys Cloud",
-      "descricao": "Estamos buscando profissionais com experiência em Salesforce Service Cloud para atuar em projeto corporativo com foco em operação de Contact Center e integração CTI/CX Cloud. Principais responsabilida"
-    },
-    {
-      "titulo": "Salesforce Service Cloud  Genesys Cloud",
-      "descricao": "Estamos buscando profissionais com experiência em Salesforce Service Cloud para atuar em projeto corporativo com foco em operação de Contact Center e integração CTI/CX Cloud. Principais responsabilida"
-    },
-    {
-      "titulo": "Salesforce Service Cloud  Genesys Cloud",
-      "descricao": "Estamos buscando profissionais com experiência em Salesforce Service Cloud para atuar em projeto corporativo com foco em operação de Contact Center e integração CTI/CX Cloud. Principais responsabilida"
-    },
-    {
-      "titulo": "Salesforce Service Cloud  Genesys Cloud",
-      "descricao": "Estamos buscando profissionais com experiência em Salesforce Service Cloud para atuar em projeto corporativo com foco em operação de Contact Center e integração CTI/CX Cloud. Principais responsabilida"
-    },
-    {
-      "titulo": "Salesforce Service Cloud  Genesys Cloud",
-      "descricao": "Estamos buscando profissionais com experiência em Salesforce Service Cloud para atuar em projeto corporativo com foco em operação de Contact Center e integração CTI/CX Cloud. Principais responsabilida"
-    },
-    {
-      "titulo": "Salesforce Service Cloud  Genesys Cloud",
-      "descricao": "Estamos buscando profissionais com experiência em Salesforce Service Cloud para atuar em projeto corporativo com foco em operação de Contact Center e integração CTI/CX Cloud. Principais responsabilida"
-    },
-    {
-      "titulo": "Salesforce Service Cloud  Genesys Cloud",
-      "descricao": "Estamos buscando profissionais com experiência em Salesforce Service Cloud para atuar em projeto corporativo com foco em operação de Contact Center e integração CTI/CX Cloud. Principais responsabilida"
-    },
-    {
-      "titulo": "Salesforce Service Cloud  Genesys Cloud",
-      "descricao": "Estamos buscando profissionais com experiência em Salesforce Service Cloud para atuar em projeto corporativo com foco em operação de Contact Center e integração CTI/CX Cloud. Principais responsabilida"
-    },
-    {
-      "titulo": "Arquiteto(a) de Soluções AWS Sênior",
-      "descricao": "Arquiteto(a) de Soluções AWS Sênior Localidade: São Paulo (SP) Modelo: Híbrido Sobre a Foursys: A Foursys é uma consultoria global de tecnologia com mais de 25 anos de atuação, especializada em transf"
     },
     {
       "titulo": "Business Development Manager (AWS)",
@@ -1372,6 +1180,10 @@
     {
       "titulo": "Engenharia de Software Sênior - JAVA|AWS",
       "descricao": "O Itaú é a marca mais valiosa do Brasil, a melhor empresa para trabalhar segundo o Great Place to Work e o maior banco da América Latina. Nós impactamos diariamente mais de 98 milhões de clientes em 1"
+    },
+    {
+      "titulo": "Cloud Data Architect / Data Engineer (AWS)",
+      "descricao": "Vaga: Cloud Data Architect / Data Engineer (AWS) Atuação: 100% home office Contratação: PJ Projeto: Prazo indeterminado Buscamos por um(a) Cloud Data Architect / Data Engineer (AWS), para atuar de for"
     },
     {
       "titulo": "Desenvolvedor Backend Pleno | Node.js  TypeScript  AWS",
@@ -1442,10 +1254,6 @@
       "descricao": "A Foursys é um time apaixonado por inovação, design e transformação digital. Somos globais, somos GPTW.   ♿️ Na Foursys, celebramos a diversidade e acreditamos que são as diferentes ideias e perspecti"
     },
     {
-      "titulo": "Desenvolvedor",
-      "descricao": "Desenvolvedor(a) .NET  Python  AWS Modalidade: remoto Tipo de Contrato: CLT Responsabilidades: - Desenvolver, testar e manter aplicações em .NET e Python, garantindo a eficiência e escalabilidade dos "
-    },
-    {
       "titulo": "Tutor(a) de AWS Cloud Practitioner",
       "descricao": "Sobre a vaga Estamos em busca de um(a) Tutor(a) especialista em AWS Cloud Practitioner para conduzir treinamentos presenciais em Brasília, preparando alunos para a certificação oficial da AWS. Procura"
     },
@@ -1498,20 +1306,24 @@
       "descricao": "We’re on the lookout for the curious, those who think big and want to define the world of tomorrow. At Amazon, you will grow into the high impact, visionary person you know you’re ready to be. Every d"
     },
     {
-      "titulo": "Dotnet Full Stack Developer",
-      "descricao": "Role: .NET Developer (React  Cloud Migration) Duration: June 15, 2026 – June 14, 2027 Location: Hybrid (on‑prem with future AWS migration) Description: We are seeking a skilled .NET developer with str"
-    },
-    {
-      "titulo": "Arquiteto de Infraestrutura",
-      "descricao": "Somos uma HRtech, e nossa missão é tornar relações trabalhistas mais simples, eﬁcientes e justas  Somos um parceiro de negócios e estamos em busca de talentos para crescer com a gente!  Como Arquiteto"
-    },
-    {
       "titulo": "Senior Data Engineer (AI & AWS)",
       "descricao": "Job Description ABOUT THE ROLE Buscamos um(a) Data Engineer Sênior com experiência em arquiteturas de dados modernas na AWS e interesse genuíno em Inteligência Artificial e Machine Learning. Nessa pos"
     },
     {
       "titulo": "Senior Devops Engineer - AWS & Azure",
       "descricao": "Jalasoft is looking for an experienced Senior DevOps Engineer with comprehensive expertise in both AWS and Azure cloud platforms. The ideal candidate will be responsible for designing, implementing, a"
+    },
+    {
+      "titulo": "Desenvolvedor",
+      "descricao": "Desenvolvedor(a) .NET  Python  AWS Modalidade: remoto Tipo de Contrato: CLT Responsabilidades: - Desenvolver, testar e manter aplicações em .NET e Python, garantindo a eficiência e escalabilidade dos "
+    },
+    {
+      "titulo": "Dotnet Full Stack Developer",
+      "descricao": "Role: .NET Developer (React  Cloud Migration) Duration: June 15, 2026 – June 14, 2027 Location: Hybrid (on‑prem with future AWS migration) Description: We are seeking a skilled .NET developer with str"
+    },
+    {
+      "titulo": "Arquiteto de Infraestrutura",
+      "descricao": "Somos uma HRtech, e nossa missão é tornar relações trabalhistas mais simples, eﬁcientes e justas  Somos um parceiro de negócios e estamos em busca de talentos para crescer com a gente!  Como Arquiteto"
     },
     {
       "titulo": "Ingeniero de Nube",
@@ -1534,10 +1346,6 @@
       "descricao": "Come to one of the biggest IT Services companies in the world! Here you can transform your career! Why to join TCS? Here at TCS we believe that people make the difference, that's why we live a culture"
     },
     {
-      "titulo": "Databricks Engineer – Azure & GenAI",
-      "descricao": "Databricks Engineer – Azure & GenAI Position Summary We are looking for a skilled Databricks Engineer with strong experience in Azure Cloud and Databricks platform services, including Generative AI ca"
-    },
-    {
       "titulo": "Arquiteto de soluções Azure/IA",
       "descricao": "A PSM Company é especializada na identificação de Talentos para as áreas de TI / Telecom como também para as áreas operacionais e administrativas. Nossa história de sucesso, está baseada em nosso mode"
     },
@@ -1546,8 +1354,20 @@
       "descricao": "Role: Azure Developer – Virtual Labs Experience: 4–6 Years Location: Remote (Nearshore – LATAM) Engagement Type: Contract / Long-term opportunity Key Skills Required: Strong experience in Microsoft Az"
     },
     {
+      "titulo": "Azure Cloud VDI Engineer",
+      "descricao": "• A função exige experiência prática em migração de Azure Virtual Desktop (AVD), e não apenas operações ou suporte de VDI. • Combina migração de desktops e aplicações, troubleshooting avançado de Wind"
+    },
+    {
       "titulo": "Engenheiro de Dados Sênior (Azure)",
       "descricao": "Come to one of the biggest IT Services companies in the world! Here you can transform your career! Why to join TCS? Here at TCS we believe that people make the difference, that's why we live a culture"
+    },
+    {
+      "titulo": "Arquitetura de Soluções Cloud Azure - 132725",
+      "descricao": "O que buscamos: Profissional de nível Sênior que atue com Arquitetura de Soluçõs em ambientes Cloud Azure . Contratação CLT Responsabilidades: Será o responsável pelo desenho, definição e evolução da "
+    },
+    {
+      "titulo": "Cloud Platform Engineer (Azure) - Pleno",
+      "descricao": "Olá! Somos a @Runtalent, com DNA inovador, somos consolidados no mercado de tecnologia especializados em soluções de TI há quase duas décadas. Acompanhamos todos os avanços tecnológicos dos últimos an"
     },
     {
       "titulo": "Azure e GCP Data Engineer | Senior",
@@ -1702,6 +1522,10 @@
       "descricao": "Especialista Azure Ai - A flexibilidade é uma das nossas marcas registradas. Atuamos com diferentes modelos e formatos de time, adaptando-nos ao contexto de cada cliente. Nosso diferencial está em ent"
     },
     {
+      "titulo": "Especialista Azure Ai",
+      "descricao": "Especialista Azure Ai - A flexibilidade é uma das nossas marcas registradas. Atuamos com diferentes modelos e formatos de time, adaptando-nos ao contexto de cada cliente. Nosso diferencial está em ent"
+    },
+    {
       "titulo": "DevOps Engineer",
       "descricao": "DevOps Engineer: We are looking for a full-time, remote DevOps Engineer with 3 to 5 years of work experience to work with our U.S. client. The ideal candidate will be responsible for designing, implem"
     },
@@ -1724,6 +1548,10 @@
     {
       "titulo": "DevOps PL",
       "descricao": "Muito prazer, Somos a Evertec! A Evertec é uma empresa especializada em tecnologia para o setor financeiro , com mais de 27 anos de atuação e presença em 26 países da América Latina e Caribe. Com mais"
+    },
+    {
+      "titulo": "Arquiteto DevOps / Cloud",
+      "descricao": "Arquiteto DevOps / Cloud A Foursys é uma consultoria global de tecnologia com mais de 25 anos de atuação , especializada em transformação digital, inovação e desenvolvimento de soluções tecnológicas p"
     },
     {
       "titulo": "Senior DevOps Engineer",
@@ -1758,8 +1586,20 @@
       "descricao": "Qual será o seu papel? Buscamos um profissional experiente e apaixonado por tecnologia para se juntar à nossa equipe como Analista DevOps/SRE. Você será responsável por projetar, implementar e gerenci"
     },
     {
+      "titulo": "\"Cloud DevOps Sênior 1002679\"",
+      "descricao": "Quem Somos A Dexian, lançada em 2023, tem presença global e traz consigo quase 30 anos de experiência através de suas companhias legadas, principalmente da combinação da DISYS e Signature Consultants."
+    },
+    {
+      "titulo": "Cloud Systems Engineer/DevOps",
+      "descricao": "About the Product For more than 30 years, Carnegie has been a leader and innovator in higher education marketing and enrollment strategy, offering groundbreaking services in the areas of Research, Str"
+    },
+    {
       "titulo": "DevOps Engineer (Relocation to Portugal)",
       "descricao": " We are looking for a DevOps Engineer to work in a hybrid model in Lisbon/Porto who's eager to embark on an exciting new opportunity!  Relocation package available About KWAN We connect IT professiona"
+    },
+    {
+      "titulo": "Analista Cloud Júnior - DevOps & IA",
+      "descricao": "Na Stefanini, acreditamos no poder da colaboração. Co-criamos soluções inovadoras em parceria com nossos clientes, combinando tecnologia de ponta, inteligência artificial e a criatividade humana. Esta"
     },
     {
       "titulo": "DevOps",
@@ -1866,16 +1706,16 @@
       "descricao": "Senior Full Stack Engineer | 100% Remote | 6-Month Contract | US Hours Rare opportunity to join a fast-moving product engineering environment building modern analytics platforms from the ground up acr"
     },
     {
-      "titulo": "Full Stack Engineer",
-      "descricao": "We’re hiring Senior Full Stack Engineers to join a fast-paced team building scalable, modern applications across high-impact projects. This role is ideal for engineers who enjoy solving complex techni"
-    },
-    {
-      "titulo": "Full Stack Engineer",
-      "descricao": "We’re hiring Senior Full Stack Engineers to join a fast-paced team building scalable, modern applications across high-impact projects. This role is ideal for engineers who enjoy solving complex techni"
-    },
-    {
       "titulo": "Desenvolvedor full stack",
       "descricao": "Descrição do trabalho: Estamos procurando um(a) Desenvolvedor(a) Full Stack Sênior para integrar a equipe de Desenvolvimento em uma empresa consolidada no mercado brasileiro de saúde digital, especial"
+    },
+    {
+      "titulo": "Full Stack Engineer",
+      "descricao": "We’re hiring Senior Full Stack Engineers to join a fast-paced team building scalable, modern applications across high-impact projects. This role is ideal for engineers who enjoy solving complex techni"
+    },
+    {
+      "titulo": "Full Stack Engineer",
+      "descricao": "We’re hiring Senior Full Stack Engineers to join a fast-paced team building scalable, modern applications across high-impact projects. This role is ideal for engineers who enjoy solving complex techni"
     },
     {
       "titulo": "Desenvolvedor full stack",
@@ -1967,10 +1807,6 @@
     },
     {
       "titulo": "Desenvolvedor full stack",
-      "descricao": " Vaga: Desenvolvedor Fullstack .Net/React  Regime: Modelo híbrido – 3x presencial em Jundiai e 2x remoto (dias alinhados com o gestor) Buscamos profissional com sólida experiência em desenvolvimento F"
-    },
-    {
-      "titulo": "Desenvolvedor full stack",
       "descricao": "Analista Desenvolvedor Fullstack (React, Node, VTEX) Híbrido - SP Desenvolvedor(a) Fullstack Sênior com sólidos conhecimentos em Node.js e React.js, além de experiência comprovada com a plataforma VTE"
     },
     {
@@ -2046,6 +1882,10 @@
       "descricao": "A Oportunidade O Engenheiro de Software Sênior é responsável por desenvolver, evoluir e manter soluções tecnológicas de alta performance e escalabilidade que suportam os sistemas responsáveis pelo cic"
     },
     {
+      "titulo": "Desenvolvedor full stack / Back end",
+      "descricao": "Estamos em busca de um(a) Desenvolvedor(a) Full Stack Sênior para atuar no desenvolvimento e evolução de soluções modernas, escaláveis e em cloud. Essa pessoa terá papel ativo em decisões técnicas, ar"
+    },
+    {
       "titulo": "Desenvolvedor Backend",
       "descricao": "Vaga: Desenvolvedor(a) Backend Sênior Local: São Paulo/SP – Híbrido (3x por semana presencial nas proximidades da Estação Berrini - CENU) Regime: PJ ou CLT (a combinar) Sobre a ColmeIA A ColmeIA é uma"
     },
@@ -2076,10 +1916,6 @@
     {
       "titulo": "Desenvolvedor Backend Sênior",
       "descricao": "Sobre a Empresa A Syonet , empresa que integra o grupo Webmotors , é especializada no desenvolvimento de soluções tecnológicas voltadas para a transformação digital do setor automotivo, com foco em co"
-    },
-    {
-      "titulo": "Desenvolvedor(a) Backend Pleno",
-      "descricao": "Sobre a Vesti A Vesti é um ecossistema de tecnologia para o atacado de moda no Brasil. Criamos soluções digitais que conectam confecções e multimarcas, ajudando negócios a vender e escalar com mais ef"
     },
     {
       "titulo": "Tech Lead Java Backend",
@@ -2138,12 +1974,12 @@
       "descricao": "Se você é uma pessoa que é gente boa, gosta de aprender e é apaixonada por resultados, você está no lugar certo! Como maior empresa de tecnologia do Brasil, queremos construir um ecossistema cada vez "
     },
     {
-      "titulo": "Desenvolvedor Backend .NET Jr | Sustentação e Melhorias",
-      "descricao": "Desenvolvedor Backend .NET Jr | Sustentação e Melhorias | Remoto Estamos em busca de um(a) Desenvolvedor(a) Backend .NET Jr para atuar em uma operação de AMS (Application Management Services), prestan"
+      "titulo": "Engenharia de Software Backend Pleno - Java",
+      "descricao": "Se você é uma pessoa que é gente boa, gosta de aprender e é apaixonada por resultados, você está no lugar certo! Como maior empresa de tecnologia do Brasil, queremos construir um ecossistema cada vez "
     },
     {
-      "titulo": "Senior Software Engineer (Node.js- Backend)",
-      "descricao": "Aura People Partner is supporting HG Insights Company to hiring a Senior Software Engineer (Node.js- Backend) About the Company HG Insights is the global leader in technology intelligence, delivering "
+      "titulo": "Desenvolvedor Backend .NET Jr | Sustentação e Melhorias",
+      "descricao": "Desenvolvedor Backend .NET Jr | Sustentação e Melhorias | Remoto Estamos em busca de um(a) Desenvolvedor(a) Backend .NET Jr para atuar em uma operação de AMS (Application Management Services), prestan"
     },
     {
       "titulo": "Backend Developer – Senior (Java | Node.js)",
@@ -2186,8 +2022,16 @@
       "descricao": "Desenvolvedor(a) Backend | Node.js / TypeScript | Híbrido | PJ | Fintech - SP  Sobre a VONBZ Na VONBZ , somos arquitetos da evolução digital. Não contratamos apenas profissionais técnicos — buscamos t"
     },
     {
-      "titulo": "Data Engineer/Back end Software Engineer - 100% Remote",
-      "descricao": "Data Engineer/Back end Software Engineer - 100% Remote Candidate Location –Brazil Employment Type: 12 months plus contract Start date – DOE Job Description We are looking for a highly skilled Senior D"
+      "titulo": "Backend Engineer",
+      "descricao": "Backend Engineer - You will be part of a multidisciplinary international team focused on building and optimizing scalable backend services that power high-traffic B2C e-commerce platforms. Location: R"
+    },
+    {
+      "titulo": "Backend Engineer",
+      "descricao": "Backend Engineer - You will be part of a multidisciplinary international team focused on building and optimizing scalable backend services that power high-traffic B2C e-commerce platforms. Location: R"
+    },
+    {
+      "titulo": "Backend Engineer",
+      "descricao": "Backend Engineer - You will be part of a multidisciplinary international team focused on building and optimizing scalable backend services that power high-traffic B2C e-commerce platforms. Location: R"
     },
     {
       "titulo": "Backend Engineer",
@@ -2326,16 +2170,16 @@
       "descricao": "Frontend Developer - Js, Typescript, JavaScript, Next. Js, AWS/GCPGood to have:HTML, CSS, REST and GraphQL, Vector Database, Experience with use of monitoring/observability tools (e. G. , OpenTelemetr"
     },
     {
+      "titulo": "Frontend Developer",
+      "descricao": "Frontend Developer - Js, Typescript, JavaScript, Next. Js, AWS/GCP Good to have: HTML, CSS, REST and GraphQL, Vector Database, Experience with use of monitoring/observability tools (e. G. , OpenTeleme"
+    },
+    {
+      "titulo": "Frontend Developer",
+      "descricao": "Frontend Developer - Js, Typescript, JavaScript, Next. Js, AWS/GCP Good to have: HTML, CSS, REST and GraphQL, Vector Database, Experience with use of monitoring/observability tools (e. G. , OpenTeleme"
+    },
+    {
       "titulo": "Desenvolvedor Frontend",
       "descricao": "Desenvolvedor Frontend - NET c#; Expertise net core; Noções de arquitetura (MVVM, Viper, e etc); ReactJs e/ou Native; Competências ComportamentaisVontade de fazer acontecer: valorizamos quem tem vonta"
-    },
-    {
-      "titulo": "Frontend Developer",
-      "descricao": "Frontend Developer - Js, Typescript, JavaScript, Next. Js, AWS/GCP Good to have: HTML, CSS, REST and GraphQL, Vector Database, Experience with use of monitoring/observability tools (e. G. , OpenTeleme"
-    },
-    {
-      "titulo": "Frontend Developer",
-      "descricao": "Frontend Developer - Js, Typescript, JavaScript, Next. Js, AWS/GCP Good to have: HTML, CSS, REST and GraphQL, Vector Database, Experience with use of monitoring/observability tools (e. G. , OpenTeleme"
     },
     {
       "titulo": "Frontend Developer",
@@ -2352,10 +2196,6 @@
     {
       "titulo": "Frontend Developer",
       "descricao": "Estamos em busca de uma pessoa para atuar como Frontend Developer contribuindo diretamente na construção, evolução e manutenção de aplicações internas . Procuramos alguém com olhar para qualidade de c"
-    },
-    {
-      "titulo": "Senior Frontend",
-      "descricao": "Senior Frontend - Js- TypeScript- Experience in finance is a plus (banks, fintechs, insurance, betting)Non-negotiable requirements:- Fluent technical English (all documentation and internal communicat"
     },
     {
       "titulo": "Frontend Engineer",
@@ -2432,6 +2272,10 @@
     {
       "titulo": "Frontend Developer - Remote",
       "descricao": "Job Title: Frontend Engineer Job Type: Contract, Part time Location: Remote Job Summary: We are seeking a Frontend Engineer who will be instrumental in crafting seamless, intuitive, and robust web app"
+    },
+    {
+      "titulo": "Senior Engineer",
+      "descricao": "Venha para uma das maiores empresas de Serviços de TI do mundo Aqui você pode transformar sua carreira! Por que fazer parte do TCS? Aqui na TCS entendemos que as pessoas fazem a diferença, por isso vi"
     },
     {
       "titulo": "Desenvolvedor Mobile SR",
@@ -2626,12 +2470,12 @@
       "descricao": "Desenvolvedor Mobile Sênior - Ter experiência sólida em Dart é essencial. - Conhecimento avançado em Flutter SDK: saber trabalhar com widgets, estruturar o layout, navegação, Pattern BLoC, gerência de"
     },
     {
-      "titulo": "Desenvolvedor Mobile Sênior",
-      "descricao": "Desenvolvedor Mobile Sênior - Ter experiência sólida em Dart é essencial. - Conhecimento avançado em Flutter SDK: saber trabalhar com widgets, estruturar o layout, navegação, Pattern BLoC, gerência de"
+      "titulo": "Consultora de Mobilidade Global",
+      "descricao": "Consultora de Mobilidade Global, profissional que irá atuar na coordenação e supervisão dos processos de transferência de expatriados ao Brasil, além de ser responsável também pela área de qualidade d"
     },
     {
-      "titulo": "Desenvolvedor Mobile Sênior",
-      "descricao": "Desenvolvedor Mobile Sênior - Ter experiência sólida em Dart é essencial. - Conhecimento avançado em Flutter SDK: saber trabalhar com widgets, estruturar o layout, navegação, Pattern BLoC, gerência de"
+      "titulo": "Desenvolvedor Mobile Sr",
+      "descricao": "A Logiks é uma empresa de Consultoria e Serviços em Tecnologia da Informação atuando no mercado desde 2005. Possui sede em Brasília-DF mas atua em todo o Brasil. Nosso objetivo é desenvolver, implemen"
     },
     {
       "titulo": "Especialista Engenharia Software foco em IA",
@@ -2696,10 +2540,6 @@
     {
       "titulo": "Coordenador(a) de Engenharia de Software",
       "descricao": "Job Description Responsável por coordenar as atividades do time de Tecnologia, com foco em entrega, eficiência operacional e alinhamento estratégico. Atua na liderança de pessoas, gestão de projetos c"
-    },
-    {
-      "titulo": "Coordenador(a) de Engenharia de Software",
-      "descricao": "Job Description Coordenar equipes de Engenharia (squads, operação e fornecedores). Desenvolver pessoas e formar novas lideranças. Gerenciar fornecedores e contratos técnicos. Avaliar e propor soluções"
     },
     {
       "titulo": "Coordenador(a) de Engenharia de Software",
@@ -2820,10 +2660,6 @@
     {
       "titulo": "Analista de Dados e Automação",
       "descricao": "A Foursys é um time apaixonado por inovação, design e transformação digital. Somos globais, somos GPTW. Na Foursys, celebramos a diversidade e acreditamos que são as diferentes ideias e perspectivas q"
-    },
-    {
-      "titulo": "Analista de dados sênior",
-      "descricao": "Analista em Dados | SQL Avançado | ETL/ELT | Modelagem de Dados Estamos em busca de um profissional apaixonado por dados, com forte domínio técnico em SQL e experiência prática em integração, modelage"
     },
     {
       "titulo": "Analista de Dados Pleno",
@@ -3003,43 +2839,7 @@
     },
     {
       "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
-    },
-    {
-      "titulo": "Cientista De Dados",
       "descricao": "Cientista De Dados - Requisitos mínimos:- Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; - Experiência prática com GCP (Google Cloud Platform) e BigQuery para aná"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:- Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; - Experiência prática com GCP (Google Cloud Platform) e BigQuery para aná"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos: Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para anális"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
     },
     {
       "titulo": "Cientista De Dados",
@@ -3064,38 +2864,6 @@
     {
       "titulo": "Cientista De Dados",
       "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:- Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; - Experiência prática com GCP (Google Cloud Platform) e BigQuery para aná"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:- Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; - Experiência prática com GCP (Google Cloud Platform) e BigQuery para aná"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:- Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; - Experiência prática com GCP (Google Cloud Platform) e BigQuery para aná"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:- Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; - Experiência prática com GCP (Google Cloud Platform) e BigQuery para aná"
-    },
-    {
-      "titulo": "Cientista De Dados",
-      "descricao": "Cientista De Dados - Requisitos mínimos:- Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; - Experiência prática com GCP (Google Cloud Platform) e BigQuery para aná"
     },
     {
       "titulo": "Cientista De Dados",
@@ -3123,11 +2891,79 @@
     },
     {
       "titulo": "Cientista De Dados",
+      "descricao": "Cientista De Dados - Requisitos mínimos:- Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; - Experiência prática com GCP (Google Cloud Platform) e BigQuery para aná"
+    },
+    {
+      "titulo": "Cientista De Dados",
+      "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
+    },
+    {
+      "titulo": "Cientista De Dados",
+      "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
+    },
+    {
+      "titulo": "Cientista De Dados",
       "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
     },
     {
       "titulo": "Cientista De Dados",
       "descricao": "Cientista De Dados - Requisitos mínimos:- Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; - Experiência prática com GCP (Google Cloud Platform) e BigQuery para aná"
+    },
+    {
+      "titulo": "Cientista De Dados",
+      "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
+    },
+    {
+      "titulo": "Cientista De Dados",
+      "descricao": "Cientista De Dados - Requisitos mínimos:- Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; - Experiência prática com GCP (Google Cloud Platform) e BigQuery para aná"
+    },
+    {
+      "titulo": "Cientista De Dados",
+      "descricao": "Cientista De Dados - Requisitos mínimos:Proficiência em SQL e Python ou R para modelagem estatística e manipulação de dados; Experiência prática com GCP (Google Cloud Platform) e BigQuery para análise"
+    },
+    {
+      "titulo": "Cientista de Dados",
+      "descricao": "O cientista de dados é responsável por coletar, processar e analisar grandes volumes de dados para extrair insights valiosos que auxiliem na tomada de decisões empresariais. Atuam usando técnicas esta"
+    },
+    {
+      "titulo": "Cientista de Dados",
+      "descricao": "Estamos em busca de um(a) Cientista de Dados para integrar nosso time de inovação e tecnologia. Procuramos um(a) profissional com perfil analítico, domínio técnico e visão estratégica, que esteja prep"
+    },
+    {
+      "titulo": "Cientista de Dados",
+      "descricao": "Description Somos a equipe de BI da Beep Saúde, guardiões da cultura de dados que impulsiona o futuro da empresa. Estamos buscando um(a) cientista de dados talentoso e motivado para utilizar técnicas "
+    },
+    {
+      "titulo": "Cientista de Dados",
+      "descricao": "Description Estamos construindo um dos maiores ecossistemas de varejo de proximidade do Brasil. Desde 2020, quando abrimos nossa primeira loja, a OXXO Brasil cresce de forma acelerada no varejo de pro"
+    },
+    {
+      "titulo": "Cientista de Dados",
+      "descricao": "Description Estamos em busca de um(a) Cientista de Dados para fazer parte do nosso time de Tecnologia em Jaboticabal - SP. Você será responsável pela coleta, análise, interpretação e gerenciamento dos"
+    },
+    {
+      "titulo": "Ciêntista de Dados",
+      "descricao": "Descrição: Seu dia dia na Bancorbrás: - Participar de reuniões com as áreas de negócio para coleta de requisitos; - Desenvolver documentação técnica; - Trabalhar em colaboração com áreas de negócio pa"
+    },
+    {
+      "titulo": "Cientista de Dados III",
+      "descricao": "Job Description Descrição do trabalho Estamos em busca de um Cientista de Dados Sênior para integrar nosso time de Gestão de Riscos no Agronegócio . O profissional atuará em um time altamente qualific"
+    },
+    {
+      "titulo": "Cientista de Dados Júnior",
+      "descricao": "Cientista de Dados Júnior - Contribuindo no desenvolvimento, validação, controle, documentação e implementação de soluções analíticas e projetos de dados, desde a sua concepção até a fase de acompanha"
+    },
+    {
+      "titulo": "Cientista de Dados - Senior",
+      "descricao": "Description  Vaga: Cientista de Dados Sênior (Search & Recommendation)  Descrição da vaga Buscamos uma pessoa Cientista de Dados Sênior para nos apoiar na estruturação da área de Data Science e, princ"
+    },
+    {
+      "titulo": "Cientista de Dados Sênior",
+      "descricao": "Description Como Cientista de Dados Sênior na Montreal, você fará parte de uma das melhores empresas de tecnologia do Brasil. Nossa trajetória iniciou há mais de trinta anos com uma pequena equipe de "
+    },
+    {
+      "titulo": "Cientista de Dados Iii",
+      "descricao": "O que procuramos? Atribuições principais: - Realizar análises em grandes e ricos conjuntos de dados para extrair insights acionáveis que ajudarão na tomada de decisão visando objetivos de negócio; - C"
     },
     {
       "titulo": "Engenheiro de Dados SR",
@@ -3148,10 +2984,6 @@
     {
       "titulo": "Engenheiro de Dados Sênior",
       "descricao": "Somos uma empresa em constante evolução, movida por pessoas, inovação e propósito. Há mais de 30 anos no mercado, construímos uma trajetória sólida, marcada pelo crescimento sustentável, pela proximid"
-    },
-    {
-      "titulo": "Engenheiro de Dados (Hibrido em Guarulhos)",
-      "descricao": "Olá! Somos a @Runtalent, com DNA inovador, somos consolidados no mercado de tecnologia e especializados em soluções de TI há quase duas décadas. Acompanhamos todos os avanços tecnológicos dos últimos "
     },
     {
       "titulo": "Engenheiro de dados Pleno e Sênior",
@@ -3211,11 +3043,11 @@
     },
     {
       "titulo": "Engenheiro De Dados",
-      "descricao": "Engenheiro De Dados - Engenheiro(a) de Dados PlenoHíbrido São José do Rio Preto/SP | PJ | Início ImediatoContratação: PJDisponibilidade de início: ImediatoRequisitos Obrigatórios:Experiência sólida co"
+      "descricao": "Engenheiro De Dados - O cenário ideal para expandir ideias através das ferramentas certas, contribuindo para nosso sucesso num ambiente colaborativo. Estamos procurando um(a) Engenheiro(a) de Dados. P"
     },
     {
       "titulo": "Engenheiro De Dados",
-      "descricao": "Engenheiro De Dados - Engenheiro(a) de Dados Pleno Híbrido São José do Rio Preto/SP | PJ | Início Imediato Contratação: PJ Disponibilidade de início: Imediato Requisitos Obrigatórios: Experiência sóli"
+      "descricao": "Engenheiro De Dados - O cenário ideal para expandir ideias através das ferramentas certas, contribuindo para nosso sucesso num ambiente colaborativo. Estamos procurando um(a) Engenheiro(a) de Dados. P"
     },
     {
       "titulo": "Engenheiro De Dados",
@@ -3226,12 +3058,20 @@
       "descricao": "Engenheiro De Dados - O cenário ideal para expandir ideias através das ferramentas certas, contribuindo para nosso sucesso num ambiente colaborativo. Estamos procurando um(a) Engenheiro(a) de Dados . "
     },
     {
+      "titulo": "Engenheiro De Dados",
+      "descricao": "Engenheiro De Dados - O cenário ideal para expandir ideias através das ferramentas certas, contribuindo para nosso sucesso num ambiente colaborativo. Estamos procurando um(a) Engenheiro(a) de Dados. P"
+    },
+    {
       "titulo": "Business Intelligence Developer",
       "descricao": "BI Developer – Power BI (Backend, Integrations & Automation) We are looking for a hands‑on BI Developer with strong expertise in Power BI, backend data modeling, and data integration/automation (APIs "
     },
     {
       "titulo": "Especialista de Business Intelligence",
       "descricao": "Multinacional de grande porte busca profissional procura um especialista de gestão da operação do plano de loja perfeita, junto com o time de execução  o time interno, Geração de insights de oportunid"
+    },
+    {
+      "titulo": "Comercial Business Intelligence | Apresentação",
+      "descricao": "Business Intelligence Analyst | Power BI & Data Visualization Na L-founders, acreditamos que dados bem traduzidos geram decisões melhores, operações mais inteligentes e crescimento acelerado. Estamos "
     },
     {
       "titulo": "Senior Business Intelligence Analyst",
@@ -3248,10 +3088,6 @@
     {
       "titulo": "Analista de BI (Business Intelligence) PL",
       "descricao": "Sobre nós: Furukawa Electric LatAm, Furukawa Electric Fiber & Cable e OFS agora são Lightera Lightera é mais do que um nome, é um compromisso com a criação de conexões mais brilhantes que moldam o fut"
-    },
-    {
-      "titulo": "Business Intelligence Analyst | Power BI & Data Visualization",
-      "descricao": "Business Intelligence Analyst | Power BI & Data Visualization Na L-founders, acreditamos que dados bem traduzidos geram decisões melhores, operações mais inteligentes e crescimento acelerado. Estamos "
     },
     {
       "titulo": "Business Intelligence",
@@ -3274,10 +3110,6 @@
       "descricao": "Especialista De Business Intelligence - Las responsabilidades Coordenar a operação e inserção da estratégia de Loja Perfeita entre o time de execução e time interno. Capacitar e treinar o time interno"
     },
     {
-      "titulo": "Especialista De Business Intelligence",
-      "descricao": "Especialista De Business Intelligence - Las responsabilidades- Coordenar a operação e inserção da estratégia de Loja Perfeita entre o time de execução e time interno. - Capacitar e treinar o time inte"
-    },
-    {
       "titulo": "Analista de Business Intelligence",
       "descricao": "Description Em consonância com o carisma institucional, herdado pela fundadora da Rede Damas, Me. Agathe Verhelle, o profissional irá desenvolver atividades junto ao time do Núcleo Estratégico, onde a"
     },
@@ -3296,10 +3128,6 @@
     {
       "titulo": "Estágio em Business Intelligence",
       "descricao": "Estamos em busca de uma pessoa estagiária para a área de Business Intelligence (BI) altamente motivada e apaixonada por dados para se juntar à nossa Tripulação. Para esta posição, essa pessoa será res"
-    },
-    {
-      "titulo": "Analista de Business Intelligence",
-      "descricao": "Distribuidora de Perfumes e Cosméticos Estamos em busca de um(a) Analista de BI para atuar em uma distribuidora do segmento de perfumes e cosméticos, com foco em análise de performance comercial e apo"
     },
     {
       "titulo": "Analista de Business Intelligence",
@@ -3351,23 +3179,11 @@
     },
     {
       "titulo": "Senior Business Intelligence Analyst",
-      "descricao": "Senior Business Intelligence Analyst - This position will partner closely with Sales Leadership and Finance to deliver insights, ensure accuracy in key processes such as pricing and commissions, and d"
-    },
-    {
-      "titulo": "Senior Business Intelligence Analyst",
       "descricao": "Minimum qualifications: - Bachelor's degree or equivalent practical experience. - 7 years of experience in Business Intelligence or Data Analytics. - 7 years of experience in SQL and Data Visualizatio"
-    },
-    {
-      "titulo": "Senior Business Intelligence Analyst",
-      "descricao": "Senior Business Intelligence Analyst - This position will partner closely with Sales Leadership and Finance to deliver insights, ensure accuracy in key processes such as pricing and commissions, and d"
     },
     {
       "titulo": "Analista Business Intelligence JR",
       "descricao": "Consumer Care/Customer Care Permanent Job Description Inscrições disponíveis até 05/06/2026 Leve a experiência de serviço para o próximo nível. Curitiba – PR No Electrolux Group, uma empresa líder glo"
-    },
-    {
-      "titulo": "Senior Business Intelligence Analyst",
-      "descricao": "Senior Business Intelligence Analyst - This position will partner closely with Sales Leadership and Finance to deliver insights, ensure accuracy in key processes such as pricing and commissions, and d"
     },
     {
       "titulo": "Analista Business Intelligence Jr",
@@ -3388,10 +3204,6 @@
     {
       "titulo": "Analista Sênior de Business Intelligence",
       "descricao": "Description A Memed é uma healthtech que está transformando a forma como médicos, pacientes e a indústria farmacêutica se conectam por meio da tecnologia. Nosso propósito é simplificar o acesso à info"
-    },
-    {
-      "titulo": "Business Intelligence Sr Analyst",
-      "descricao": "Business Intelligence Sr Analyst - - Required to standardize mechanism for collection of historical data on call volume, shrinkage, AHT, service levels, etc. , for trending, as well as automate report"
     },
     {
       "titulo": "Assistente Administrativo | Business Intelligence",
@@ -3426,8 +3238,28 @@
       "descricao": "Sobre a SRM Asset: A SRM Asset é uma gestora brasileira, fundada em 2005, especializada em crédito estruturado e na gestão de Fundos de Investimento em Direitos Creditórios (FIDCs). Atuamos oferecendo"
     },
     {
-      "titulo": "Analista de Atendimento Técnico PL | SQL",
-      "descricao": "Muito prazer, Somos a Evertec! A Evertec é uma empresa especializada em tecnologia para o setor financeiro , com mais de 27 anos de atuação e presença em 26 países da América Latina e Caribe. Com mais"
+      "titulo": "Analista De Business Intelligence Jr",
+      "descricao": "Description Nosso time é formado por excelentes profissionais da área da tecnologia. Colaboração e comprometimento fazem parte do nosso dia-a-dia, quando desenvolvemos novas funcionalidades, construin"
+    },
+    {
+      "titulo": "Intern - Automation & Business Intelligence",
+      "descricao": "Conectando clientes aos mercados – e talentos às oportunidades Com mais de 5.400 colaboradores e mais de 80.000 clientes institucionais, comerciais e de pagamentos, operamos em mais de 80 escritórios "
+    },
+    {
+      "titulo": "Especialista de BI (Business Intelligence)",
+      "descricao": "Responsabilidades: Desenvolver, acompanhar e analisar indicadores estratégicos do negócio; Criar dashboards e relatórios gerenciais para suporte à tomada de decisão; Estruturar e automatizar bases de "
+    },
+    {
+      "titulo": "Analista de Business Intelligence Sênior",
+      "descricao": "Conheça nossa cultura: Somos movidos pela inovação. Nossas soluções tecnológicas estão transformando a vida de milhões de pessoas. Aqui, respeito e diversidade não são apenas palavras; são pilares que"
+    },
+    {
+      "titulo": "Business Intelligence Sr Analyst",
+      "descricao": "Responsibility Monitoring of agent queues and generate performance reports to identify performance trends Collect and analyze data at regular intervals for reporting, as well as track and update any o"
+    },
+    {
+      "titulo": "Analista de Business Intelligence (BI)",
+      "descricao": "Projeto de Licitação Setor: Dados e Inteligência de Negócios Modelo de Trabalho: Remoto Contrato: PJ Responsabilidades e Atribuições Desenvolver e monitorar pipelines de extração, transformação e carg"
     },
     {
       "titulo": "Oracle EBS PL/SQL Developer",
@@ -3436,10 +3268,6 @@
     {
       "titulo": "Desenvolvedor Senior - PL/SQL - Core Seguros",
       "descricao": "Título do Cargo: Desenvolvedor Senior - PL/SQL Localização: Preferencialmente São Paulo, SP, Brasil (ou remoto para profissionais qualificados). Tipo de Contrato: CLT Sobre a Vaga Estamos em busca de "
-    },
-    {
-      "titulo": "Engenheiro de Soluções SR FullCycle (Sustentação .NET/SQL Node.js/React)",
-      "descricao": "Estamos em busca de uma pessoa Analista Desenvolvedor de Sustentação Sênior para atuar na sustentação e evolução de um software corporativo em produção, garantindo estabilidade, qualidade técnica e cl"
     },
     {
       "titulo": "Programador SQL",
@@ -3458,16 +3286,16 @@
       "descricao": "Oportunidade para Desenvolvedor PL/SQL Modalidade de trabalho híbrida ou remota; Contratação CLT (preferencialmente) ou PJ; Segunda a sexta-feira, das 8h30 às 12h e das 13h30 às 18h. Remuneração fixa "
     },
     {
+      "titulo": "Analista Programador SQL",
+      "descricao": " Sobre a Procfit Somos movidos por um propósito claro: transformar negócios por meio de tecnologia e pessoas. Na Procfit , acreditamos que inovação de verdade nasce da soma entre soluções inteligentes"
+    },
+    {
+      "titulo": "Analista Programador SQL",
+      "descricao": " Sobre a Procfit Somos movidos por um propósito claro: transformar negócios por meio de tecnologia e pessoas. Na Procfit , acreditamos que inovação de verdade nasce da soma entre soluções inteligentes"
+    },
+    {
       "titulo": "Analista Linux / SQL",
       "descricao": "Buscamos um(a) Analista Linux / SQL apaixonado(a) por tecnologia para fazer parte do nosso time e contribuir para a implantação de soluções inovadoras. O profissional atuará em projetos desafiadores, "
-    },
-    {
-      "titulo": "Analista Programador SQL",
-      "descricao": " Sobre a Procfit Somos movidos por um propósito claro: transformar negócios por meio de tecnologia e pessoas. Na Procfit , acreditamos que inovação de verdade nasce da soma entre soluções inteligentes"
-    },
-    {
-      "titulo": "Analista Programador SQL",
-      "descricao": " Sobre a Procfit Somos movidos por um propósito claro: transformar negócios por meio de tecnologia e pessoas. Na Procfit , acreditamos que inovação de verdade nasce da soma entre soluções inteligentes"
     },
     {
       "titulo": "Desenvolvedor SQL PL",
@@ -3550,12 +3378,12 @@
       "descricao": "ATRIBUIÇÕES: Atribuições: Administração diária de servidores SQL; Instalação e configuração do SQL Server; Performance e troubleshooting; Rotinas de backup/restore; Importação e exportação de dados; S"
     },
     {
-      "titulo": "DESENVOLVEDOR(A) PLENO (WEB & SQL SERVER)",
-      "descricao": "Área e especialização profissional: Informática, TI, Telecomunicações - TI Nível hierárquico: Especialista Local de trabalho: São Paulo, SP Regime de contratação de tipo Prestador de Serviços (PJ) Jor"
-    },
-    {
       "titulo": "DBA Sênior | PostgreSQL & SQL Server",
       "descricao": " VAGA ABERTA | DBA Sênior | PostgreSQL & SQL Server A Seven Inovações está em busca de um(a) DBA Sênior para atuar em ambientes críticos, garantindo alta disponibilidade, performance, segurança e evol"
+    },
+    {
+      "titulo": "DESENVOLVEDOR(A) PLENO (WEB & SQL SERVER)",
+      "descricao": "Área e especialização profissional: Informática, TI, Telecomunicações - TI Nível hierárquico: Especialista Local de trabalho: São Paulo, SP Regime de contratação de tipo Prestador de Serviços (PJ) Jor"
     },
     {
       "titulo": "Senior Data Engineer (Databricks, SQL)",
@@ -3620,6 +3448,14 @@
     {
       "titulo": "Desenvolvedor(a) Forms Pl/SQL (Maxicon Sistemas)",
       "descricao": "Principais atividades - Desenvolver, manter e evoluir sistemas utilizando Oracle Forms e procedures, packages, triggers, functions em PL/SQL; - Corrigir eventuais inconsistências técnicas e aplicar me"
+    },
+    {
+      "titulo": "Analista de Banco de Dados SQL Server - DBA",
+      "descricao": "Estamos em busca de um(a) profissional com perfil dinâmico, colaborativo e com boa base em SQL Server para atuar sustentando o ambiente de banco de dados e apoiando iniciativas junto ao time de BI e i"
+    },
+    {
+      "titulo": "Analista de Banco de Dados SQL Server - DBA",
+      "descricao": "Estamos em busca de um(a) profissional com perfil dinâmico, colaborativo e com boa base em SQL Server para atuar sustentando o ambiente de banco de dados e apoiando iniciativas junto ao time de BI e i"
     },
     {
       "titulo": "Desenvolvedor Java Back End Java",
@@ -3714,10 +3550,6 @@
       "descricao": "A Dexian, lançada em 2023, tem presença global e traz consigo quase 30 anos de experiência através de suas companhias legadas, principalmente da combinação da DISYS e Signature Consultants. Iniciamos "
     },
     {
-      "titulo": "Java Software Engineer",
-      "descricao": "Company Description Theta Data is a pioneering data company specializing in low-latency APIs for delivering high-speed options and stocks data. Our mission is to empower users with real-time, actionab"
-    },
-    {
       "titulo": "Desenvolvedor(a) JAVA Pleno",
       "descricao": "Oportunidade para atuar em um ambiente de engenharia forte, com foco em aplicações críticas, arquitetura moderna e sistemas de alta performance no mercado financeiro. Buscamos um perfil pleno com boa "
     },
@@ -3740,10 +3572,6 @@
     {
       "titulo": "Desenvolvedor Java Senior - 9070",
       "descricao": " Oportunidade: Desenvolvedor Java Senior - 9070  Modelo: Híbrido  Dias presenciais: 3  Desafios: Desenvolvimento e manutenção para atuar em projetos de modernização; Participação ativa junto ao time s"
-    },
-    {
-      "titulo": "L2 Java Application Support",
-      "descricao": "Required: 3-6 years Level L2 Application Support experience, preferably in the 03-06 years range. Technical Skills: Unix/Linux, any object-oriented programming experience (Java), with a good understan"
     },
     {
       "titulo": "Analista Desenvolvedor Java Pleno",
@@ -3778,16 +3606,24 @@
       "descricao": "Muito prazer, Somos a Evertec! A Evertec é uma empresa especializada em tecnologia para o setor financeiro , com mais de 27 anos de atuação e presença em 26 países da América Latina e Caribe. Com mais"
     },
     {
-      "titulo": "Back End Java SR",
-      "descricao": "Junte-se a nós! Aqui, você encontra excelentes oportunidades para o desenvolvimento da sua carreira. ▶️ Conhecimento: Valorização e incentivo da capacitação e conquista de certificações técnicas das p"
-    },
-    {
       "titulo": "Pessoa Desenvolvedora Java Sênior",
       "descricao": "Responsabilidades e atribuições Atuar no desenvolvimento de aplicações Web em equipe de desenvolvimento Scrum, com foco em projetos que envolvem inteligência artificial. Realizar a codificação e manut"
     },
     {
       "titulo": "Java Developer - Remote Work",
       "descricao": "At INDI, we're passionate about empowering individuals and businesses worldwide. Our cutting-edge recruiters connect leading companies with top talent, fostering a dynamic environment where innovation"
+    },
+    {
+      "titulo": "Desenvolvedor Java Senior - Hibrido",
+      "descricao": "A Foursys é um time apaixonado por inovação, design e transformação digital. Somos globais, somos GPTW.   ♿️ Na Foursys, celebramos a diversidade e acreditamos que são as diferentes ideias e perspecti"
+    },
+    {
+      "titulo": "Desenvolvedor(a) Java/.NET Sênior",
+      "descricao": "Quem somos nós? Somos um ecossistema de transformação digital que combina tecnologia e visão estratégica para escalar resultados e aumentar o valor entregue aos nossos clientes. Trabalhamos na constru"
+    },
+    {
+      "titulo": "Desenvolvedor(a) Java Pleno e Sênior",
+      "descricao": "A AGE Technology é a desenvolvedora do SOC, o software líder no segmento de Saúde e Segurança no Trabalho. Inovando no mercado há 24 anos, estamos presentes em todo o território nacional e temos o mai"
     },
     {
       "titulo": "JavaScript FullStack Developer SR",
@@ -3946,48 +3782,48 @@
       "descricao": "Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help improve "
     },
     {
-      "titulo": "Javascript Fullstack Developer Sr",
-      "descricao": "Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help improve "
+      "titulo": "Desenvolvedor Javascript - Recife - Pe - Vaga",
+      "descricao": "Atividades: Desenvolver e otimizar relatórios do ERP com base em JavaScript; Desenvolver e otimizar processos do ERP com base em JavaScript; Criar objeto em bancos de dados; Controlar acesso e atribui"
     },
     {
-      "titulo": "Javascript Fullstack Developer Sr",
-      "descricao": "Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help improve "
+      "titulo": "Analista Desenvolvedor Javascript Sênior - Rio de",
+      "descricao": "Atribuições: Atribuições: Desenvolvimento de Dashboards em JavaScript; Experiência no Framework REACT; Experiência em Metodologia AGILE Requisitos Requisitos:Desenvolvimento de Dashboards em JavaScrip"
     },
     {
-      "titulo": "Javascript Fullstack Developer Sr",
-      "descricao": "Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help improve "
+      "titulo": "Wanted: Javascript Fullstack Developer Sr",
+      "descricao": "Wanted: Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help "
     },
     {
-      "titulo": "Javascript Fullstack Developer Sr",
-      "descricao": "Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help improve "
+      "titulo": "Wanted: Javascript Fullstack Developer Sr",
+      "descricao": "Wanted: Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help "
     },
     {
-      "titulo": "Javascript Fullstack Developer Sr",
-      "descricao": "Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help improve "
+      "titulo": "Wanted: Javascript Fullstack Developer Sr",
+      "descricao": "Wanted: Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help "
     },
     {
-      "titulo": "Javascript Fullstack Developer Sr",
-      "descricao": "Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help improve "
+      "titulo": "Wanted: Javascript Fullstack Developer Sr",
+      "descricao": "Wanted: Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help "
     },
     {
-      "titulo": "Javascript Fullstack Developer Sr",
-      "descricao": "Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help improve "
+      "titulo": "Wanted: Javascript Fullstack Developer Sr",
+      "descricao": "Wanted: Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help "
     },
     {
-      "titulo": "Javascript Fullstack Developer Sr",
-      "descricao": "Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help improve "
+      "titulo": "Wanted: Javascript Fullstack Developer Sr",
+      "descricao": "Wanted: Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help "
     },
     {
-      "titulo": "Javascript Fullstack Developer Sr",
-      "descricao": "Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help improve "
+      "titulo": "Wanted: Javascript Fullstack Developer Sr",
+      "descricao": "Wanted: Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help "
     },
     {
-      "titulo": "Javascript Fullstack Developer Sr",
-      "descricao": "Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help improve "
+      "titulo": "Wanted: Javascript Fullstack Developer Sr",
+      "descricao": "Wanted: Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help "
     },
     {
-      "titulo": "Javascript Fullstack Developer Sr",
-      "descricao": "Javascript Fullstack Developer Sr - You''ll be responsible for creating performant user interfaces, fetching and handling data efficiently, while collaborating with backend developers to help improve "
+      "titulo": "Estágio Desenvolvedor Web/javascript - Porto",
+      "descricao": "Análise de Sistemas;Desenvolvimento de Sistemas;Tecnologia em Análise e Desenvolvimento de Sistemas de Informação;Tecnologia em Produção Multimídia;Tecnólogo em Análise e Desenvolvimento de Sistemas;T"
     }
   ]
 }

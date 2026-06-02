@@ -42,7 +42,7 @@ SKILLS_LIST = [
     "CI/CD", "Jenkins", "GitHub Actions", "Git",
     "Spark", "Databricks", "Airflow", "Kafka", "Snowflake", "dbt",
     "Machine Learning", "Deep Learning", "NLP", "Computer Vision",
-    "Inteligência Artificial", "IA", "Data Science", "Big Data",
+    "Inteligência Artificial", "Data Science", "Big Data",
     "ETL", "Pipeline", "Pandas", "NumPy", "Scikit-learn", "TensorFlow",
     "PyTorch", "Power BI", "Tableau", "Looker", "Excel",
     "Django", "Flask", "FastAPI", "Spring", "Node", "Express",
@@ -83,12 +83,27 @@ def buscar_vagas(termo):
 
 
 def extrair_skills(descricao):
+    # Dicionário de normalização: variações → nome canônico
+    SINONIMOS = {
+        "ia": "Inteligência Artificial",
+        "artificial intelligence": "Inteligência Artificial",
+        "ai": "Inteligência Artificial",
+        "ml": "Machine Learning",
+        "nlp": "NLP",
+        "cv": "Computer Vision",
+        "gcp": "GCP",
+        "k8s": "Kubernetes",
+    }
     desc = descricao.lower() if descricao else ""
-    skills_encontradas = []
+    skills_encontradas = set()  # set evita duplicatas automaticamente
     for skill in SKILLS_LIST:
         if re.search(r'\b' + re.escape(skill.lower()) + r'\b', desc):
-            skills_encontradas.append(skill)
-    return skills_encontradas
+            skills_encontradas.add(skill)
+    # Verifica sinônimos avulsos
+    for variacao, canonical in SINONIMOS.items():
+        if re.search(r'\b' + re.escape(variacao) + r'\b', desc):
+            skills_encontradas.add(canonical)
+    return list(skills_encontradas)
 
 
 def categorizar_profissao(titulo):

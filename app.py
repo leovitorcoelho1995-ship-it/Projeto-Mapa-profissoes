@@ -29,7 +29,7 @@ html, body, [class*="css"] { font-family: 'Syne', system-ui, sans-serif !importa
 .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .75rem; margin-bottom: 2.5rem; }
 .kpi-card { background: #ede9e2; border: 1px solid #d9d4cc; border-radius: 8px; padding: 1.1rem 1.25rem; }
 .kpi-val { font-family: 'DM Serif Display', serif; font-size: 2.3rem; line-height: 1; color: #0c0c0d; }
-.kpi-val span { font-family: 'Syne', sans-serif; font-size: .85rem; font-weight: 700; color: #0d7a5f; }
+.kpi-money-number { font-family: 'Syne', sans-serif; font-size: 1.65rem; font-weight: 700; color: #0d7a5f; }
 .kpi-label { font-family: 'DM Mono', monospace; font-size: 12px; color: #7a7570; text-transform: uppercase; letter-spacing: .07em; margin-top: .3rem; }
 .section-header { display: flex; align-items: baseline; gap: .75rem; margin-bottom: 1.5rem; margin-top: 2.5rem; padding-bottom: .75rem; border-bottom: 1px solid #d9d4cc; }
 .section-num { font-family: 'DM Mono', monospace; font-size: 13px; color: #7a7570; letter-spacing: .08em; }
@@ -130,7 +130,7 @@ st.markdown(f"""
   <div class="kpi-card"><div class="kpi-val">{kpi['total_vagas']:,}</div><div class="kpi-label">Vagas analisadas</div></div>
   <div class="kpi-card"><div class="kpi-val">{kpi['skills_unicas']}</div><div class="kpi-label">Skills distintas</div></div>
   <div class="kpi-card"><div class="kpi-val">{kpi['profissoes_unicas']}</div><div class="kpi-label">Profissões mapeadas</div></div>
-  <div class="kpi-card"><div class="kpi-val">R$<span>{kpi['salario_medio_estimado']:,.0f}</span></div><div class="kpi-label">Salário médio estimado</div></div>
+  <div class="kpi-card"><div class="kpi-val">R$<span class="kpi-money-number">{kpi['salario_medio_estimado']:,.0f}</span></div><div class="kpi-label">Salário médio estimado</div></div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -553,7 +553,7 @@ with col1:
     df_tab["Cresc. 5a"] = df_tab["Cresc. 5a"].apply(lambda x: f"{x:+.1f}%")
 
     st.dataframe(
-        df_tab, use_container_width=True, hide_index=True,
+        df_tab, use_container_width=True, hide_index=True, height=620,
         column_config={
             "Skill": st.column_config.TextColumn("Skill", width="medium"),
             "Vagas": st.column_config.NumberColumn("Vagas", width="small"),
