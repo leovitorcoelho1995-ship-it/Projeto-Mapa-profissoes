@@ -55,13 +55,14 @@ html, body, [class*="css"] { font-family: 'Syne', system-ui, sans-serif !importa
 .stDataFrame [role="gridcell"], .stDataFrame [role="columnheader"],
 .stDataFrame [role="gridcell"] div, .stDataFrame [role="columnheader"] div,
 .stDataFrame .gdg-cell, .stDataFrame .gdg-cell span {
-  font-size: 18px !important;
-  font-weight: 600 !important;
+  font-size: 20px !important;
+  font-weight: 650 !important;
   line-height: 1.55 !important;
 }
 .stDataFrame [role="columnheader"], .stDataFrame [role="columnheader"] div {
   color: #5f5a55 !important;
-  font-weight: 700 !important;
+  font-size: 19px !important;
+  font-weight: 750 !important;
 }
 #MainMenu {visibility: hidden;} footer {visibility: hidden;} header {visibility: hidden;}
 </style>
@@ -113,7 +114,121 @@ def marca_chatgpt(fig):
 @st.cache_data
 def carregar_dados():
     with open("dados_completos.json", "r", encoding="utf-8") as f:
-        return json.load(f)
+        return normalizar_dados(json.load(f))
+
+
+SKILL_ALIASES = {
+    "IA": "Inteligência Artificial",
+    "I.A": "Inteligência Artificial",
+    "I.A.": "Inteligência Artificial",
+    "AI": "Inteligência Artificial",
+    "Artificial Intelligence": "Inteligência Artificial",
+}
+
+
+def canonical_skill(skill):
+    return SKILL_ALIASES.get(skill, skill)
+
+
+def consolidar_skills(skills):
+    consolidadas = {}
+    ordem = []
+    for item in skills:
+        nome = canonical_skill(item.get("skill", ""))
+        if nome not in consolidadas:
+            novo = dict(item)
+            novo["skill"] = nome
+            consolidadas[nome] = novo
+            ordem.append(nome)
+            continue
+
+        atual = consolidadas[nome]
+        atual["vagas"] = atual.get("vagas", 0) + item.get("vagas", 0)
+        if "interesse_atual" in atual or "interesse_atual" in item:
+            atual["interesse_atual"] = max(atual.get("interesse_atual", 0), item.get("interesse_atual", 0))
+        if "crescimento_5anos" in atual or "crescimento_5anos" in item:
+            atual["crescimento_5anos"] = max(atual.get("crescimento_5anos", 0), item.get("crescimento_5anos", 0))
+        if item.get("tendencia") == "📈 Alta":
+            atual["tendencia"] = item["tendencia"]
+
+    return sorted((consolidadas[nome] for nome in ordem), key=lambda x: x.get("vagas", 0), reverse=True)
+
+
+def recalcular_opportunity_score(skills):
+    if not skills:
+        return []
+
+    max_vagas = max(s.get("vagas", 0) for s in skills) or 1
+    max_cresc = max(abs(s.get("crescimento_5anos", 0)) for s in skills) or 1
+    scores = []
+    for s in skills:
+        score_vagas = (s.get("vagas", 0) / max_vagas) * 50
+        score_cresc = (s.get("crescimento_5anos", 0) / max_cresc) * 35
+        score_interesse = (s.get("interesse_atual", 0) / 100) * 15
+        scores.append({
+            "skill": s["skill"],
+            "score": min(round(score_vagas + score_cresc + score_interesse, 1), 100),
+            "vagas": s.get("vagas", 0),
+            "crescimento_5anos": s.get("crescimento_5anos", 0),
+            "tendencia": s.get("tendencia", "➡️ Estável"),
+        })
+
+    return sorted(scores, key=lambda x: x["score"], reverse=True)
+
+
+def gerar_insights(dados_norm):
+    top_skills = dados_norm.get("top_skills", [])
+    top_profissoes = dados_norm.get("top_profissoes", [])
+    insights = []
+
+    if top_skills:
+        insights.append(f"• {top_skills[0]['skill']} é a skill mais requisitada, presente em {top_skills[0]['vagas']} vagas")
+    if len(top_skills) >= 3:
+        insights.append(f"• {top_skills[1]['skill']} e {top_skills[2]['skill']} completam o top 3 de skills mais pedidas")
+    if top_profissoes:
+        insights.append(f"• {top_profissoes[0]['profissao']} lidera em volume de vagas abertas ({top_profissoes[0]['vagas']} vagas)")
+
+    skills_unicas = dados_norm.get("kpis", {}).get("skills_unicas", len(top_skills))
+    insights.append(f"• Foram identificadas {skills_unicas} skills técnicas diferentes nas descrições das vagas")
+
+    salario_original = next((i for i in dados_norm.get("insights", []) if "salário" in i.lower() or "salário" in i.lower()), None)
+    if salario_original:
+        insights.append(salario_original)
+    else:
+        insights.append("• Apenas 2 vagas informaram salário - a maioria das empresas não divulga valores")
+    if len(top_profissoes) >= 3:
+        insights.append(f"• Profissões em destaque: {top_profissoes[0]['profissao']}, {top_profissoes[1]['profissao']} e {top_profissoes[2]['profissao']}")
+
+    remoto = dados_norm.get("modalidade_trabalho", {}).get("Remoto", {}).get("percentual", 0)
+    if remoto:
+        insights.append(f"• {remoto}% das vagas mencionam trabalho remoto")
+
+    scores = dados_norm.get("opportunity_scores", [])
+    if scores:
+        maior_cresc = max(scores, key=lambda x: x.get("crescimento_5anos", 0))
+        insights.append(f"• {maior_cresc['skill']} é a skill com maior crescimento em 5 anos ({maior_cresc.get('crescimento_5anos', 0):+.1f}%)")
+        insights.append(f"• {scores[0]['skill']} lidera o Opportunity Score combinando demanda atual + tendência de longo prazo")
+
+    salario_estimado = dados_norm.get("kpis", {}).get("salario_medio_estimado")
+    if salario_estimado:
+        insights.append(f"• Salário médio estimado do mercado: R${salario_estimado:,.0f} (baseado em faixas de referência)")
+
+    return insights
+
+
+def normalizar_dados(dados_raw):
+    dados_norm = dict(dados_raw)
+    top_skills = consolidar_skills(dados_norm.get("top_skills", []))
+    dados_norm["top_skills"] = top_skills
+    dados_norm["opportunity_scores"] = recalcular_opportunity_score(top_skills)
+
+    kpis = dict(dados_norm.get("kpis", {}))
+    aliases_removidos = sum(1 for s in dados_raw.get("top_skills", []) if canonical_skill(s.get("skill", "")) != s.get("skill", ""))
+    if aliases_removidos:
+        kpis["skills_unicas"] = max(0, kpis.get("skills_unicas", len(top_skills)) - aliases_removidos)
+    dados_norm["kpis"] = kpis
+    dados_norm["insights"] = gerar_insights(dados_norm)
+    return dados_norm
 
 dados = carregar_dados()
 tem_ia = "analise_ia" in dados
