@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+from html import escape
 
 st.set_page_config(
     page_title="Mapa das Profissões do Futuro",
@@ -55,15 +56,55 @@ html, body, [class*="css"] { font-family: 'Syne', system-ui, sans-serif !importa
 .stDataFrame [role="gridcell"], .stDataFrame [role="columnheader"],
 .stDataFrame [role="gridcell"] div, .stDataFrame [role="columnheader"] div,
 .stDataFrame .gdg-cell, .stDataFrame .gdg-cell span {
-  font-size: 20px !important;
-  font-weight: 650 !important;
-  line-height: 1.55 !important;
+  font-size: 23px !important;
+  font-weight: 700 !important;
+  line-height: 1.65 !important;
 }
 .stDataFrame [role="columnheader"], .stDataFrame [role="columnheader"] div {
-  color: #5f5a55 !important;
-  font-size: 19px !important;
-  font-weight: 750 !important;
+  color: #2f2d2a !important;
+  font-size: 22px !important;
+  font-weight: 800 !important;
 }
+.skills-table-wrap {
+  max-height: 760px;
+  overflow-y: auto;
+  border: 1px solid #d9d4cc;
+  border-radius: 8px;
+  background: rgba(255,255,255,.28);
+}
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.skills-table th {
+  background: #f1efeb;
+  color: #2f2d2a;
+  font-family: Arial, system-ui, sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 1.18;
+  text-align: left;
+  padding: .34rem .55rem;
+  border-bottom: 1px solid #d9d4cc;
+  border-right: 1px solid #e1ddd6;
+}
+.skills-table td {
+  color: #111112;
+  font-family: Arial, system-ui, sans-serif;
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 1.22;
+  padding: .34rem .55rem;
+  border-bottom: 1px solid #e3dfd8;
+  border-right: 1px solid #eee9e2;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+.skills-table th:nth-child(1), .skills-table td:nth-child(1) { width: 45%; }
+.skills-table th:nth-child(2), .skills-table td:nth-child(2) { width: 13%; text-align: right; font-variant-numeric: tabular-nums; }
+.skills-table th:nth-child(3), .skills-table td:nth-child(3) { width: 20%; text-align: right; font-variant-numeric: tabular-nums; }
+.skills-table th:nth-child(4), .skills-table td:nth-child(4) { width: 22%; }
 #MainMenu {visibility: hidden;} footer {visibility: hidden;} header {visibility: hidden;}
 </style>
 """, unsafe_allow_html=True)
@@ -697,14 +738,32 @@ with col1:
     df_tab = df_tab[["Skill", "Vagas", "Cresc. 5a", "Tendência"]]
     df_tab["Cresc. 5a"] = df_tab["Cresc. 5a"].apply(lambda x: f"{x:+.1f}%")
 
-    st.dataframe(
-        df_tab, use_container_width=True, hide_index=True, height=760,
-        column_config={
-            "Skill": st.column_config.TextColumn("Skill", width="medium"),
-            "Vagas": st.column_config.NumberColumn("Vagas", width="small"),
-            "Cresc. 5a": st.column_config.TextColumn("Cresc. 5 anos", width="small"),
-            "Tendência": st.column_config.TextColumn("Tendência", width="small"),
-        }
+    linhas_tabela = "".join(
+        "<tr>"
+        f"<td>{escape(str(row['Skill']))}</td>"
+        f"<td>{int(row['Vagas'])}</td>"
+        f"<td>{escape(str(row['Cresc. 5a']))}</td>"
+        f"<td>{escape(str(row['Tendência']))}</td>"
+        "</tr>"
+        for _, row in df_tab.iterrows()
+    )
+    st.markdown(
+        f"""
+        <div class="skills-table-wrap">
+          <table class="skills-table">
+            <thead>
+              <tr>
+                <th>Skill</th>
+                <th>Vagas</th>
+                <th>Cresc. 5 anos</th>
+                <th>Tendência</th>
+              </tr>
+            </thead>
+            <tbody>{linhas_tabela}</tbody>
+          </table>
+        </div>
+        """,
+        unsafe_allow_html=True,
     )
 
 with col2:
